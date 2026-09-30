@@ -2,7 +2,11 @@
 
 Run `python3 publish_site.py build` from the repository root. The exporter reads `notes/`, the original figure manifests and `references/3gpp/spec-manifest.yml`. Quarto renders 50 pages with search, abbreviation lookup, parallel reading, figure zoom and the existing day/night theme.
 
-Outputs are `site/student-source/`, `site/student-site/` and the reading ZIP in this folder. They are generated and excluded from version control. The ZIP is for reading; clone the repository to obtain MATLAB, Jupyter and setup files.
+Ordinary builds retain only `site/student-site/`. Its pages read the original figures and verified protocols through the course server, using the exact relative paths in `manifests/local-assets.json`. After validation, the builder removes its intermediate `student-source/` directory and any previous generated reading ZIP. Source images and their resolution are preserved. A failed build leaves the previous site available and prints the diagnostic staging directory.
+
+For a portable reading package, run `python3 publish_site.py export --validate`. This explicitly builds `site/Saar-5G-NR-Teaching-Knowledge-Base.zip`, containing the figures, pages and license. Copy the ZIP elsewhere if you want to retain it across later ordinary builds. The ZIP is for reading; clone the repository to obtain MATLAB, Jupyter and setup files. Protocol PDFs remain local and the portable package uses official links.
+
+Use one of the two course servers below for the local site; opening its HTML directly or using a generic static server cannot resolve the shared assets. An extracted portable ZIP contains its own reading assets.
 
 `python3 publish_site.py --no-browser` serves the reading site on localhost:8765 and rebuilds when its inputs change. `python3 start.py` serves the site through the authenticated Jupyter runtime on localhost:8891 so the Uni execution cells can run MATLAB.
 

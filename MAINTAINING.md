@@ -65,6 +65,15 @@ need the affected MATLAB checks and a saved verification of the resulting
 figures and numbers. The commands above do not rerun the MATLAB experiments.
 Review both page themes when a change affects display.
 
+Ordinary builds retain only the compact local site and reuse original image and
+protocol files through the course servers. Each successful rebuild replaces its
+old generated outputs and removes `site/student-source/` and the old reading ZIP.
+Use `python publish_site.py export --validate` when you need a portable reading
+ZIP; copy it elsewhere before the next ordinary build. After pulling server
+code changes, stop the old server with Ctrl+C and restart `python start.py` so
+the new resource routes are loaded. A generic static server cannot serve the
+compact site's shared assets.
+
 Inspect `git diff` and `git status --short`. Stage the intended paths with
 `git add <paths>`, inspect `git diff --cached`, and run the publication check
 again. It checks the staged bytes even when they differ from your working

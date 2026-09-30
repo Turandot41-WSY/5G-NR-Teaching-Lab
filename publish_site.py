@@ -4,6 +4,7 @@ rebuild it whenever a note, figure, manifest or theme file changes.
 
     python3 publish_site.py            build, serve on http://localhost:8765, watch for changes
     python3 publish_site.py build      build once (add --validate to run the full validator)
+    python3 publish_site.py export     build a portable reading ZIP (optional --validate)
     python3 publish_site.py serve      build, serve and watch (options: --port, --no-watch, --no-browser, --validate)
 
 Requirements: a compatible environment selected by python setup/install.py.
@@ -26,13 +27,15 @@ import threading
 import time
 import webbrowser
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 from urllib.request import build_opener, ProxyHandler
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT/'setup'))
 from runtime_environment import python_executable, prepare_environment, prepare_references
 EXPORT = ROOT / "site"
+sys.path.insert(0, str(EXPORT))
+from local_assets import resolve_asset
 SITE = EXPORT / "student-site"
 BUILD = EXPORT / "build_student_export.py"
 VALIDATE = ROOT / "site/validate_distribution.py"
@@ -50,6 +53,8 @@ WATCHED = [
     EXPORT / "note_annotations.py",
     EXPORT / "approved-design.css",
     EXPORT / "build_student_export.py",
+    EXPORT / "local_assets.py",
+    ROOT / "jupyter/runtime/course_runtime.py",
     VALIDATE,
     ROOT / "publish_site.py",
     ROOT / "setup/runtime_environment.py",
@@ -105,7 +110,7 @@ def save_build_state() -> None:
     path.write_text(json.dumps({'fingerprint': build_fingerprint()}) + '\n')
 
 
-def build(validate: bool) -> bool:
+def build(validate: bool, archive: bool = False) -> bool:
     try:
         prepare_references(ROOT, sys.executable)
     except (subprocess.CalledProcessError, OSError) as error:
@@ -114,7 +119,10 @@ def build(validate: bool) -> bool:
     say("building the site from the notes ...")
     started = time.time()
     input_state = build_fingerprint()
-    result = subprocess.run([sys.executable, str(BUILD)], cwd=ROOT, capture_output=True, text=True)
+    command = [sys.executable, str(BUILD)]
+    if archive:
+        command.append('--archive')
+    result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True)
     if result.returncode != 0:
         tail = (result.stdout + result.stderr).strip().splitlines()[-25:]
         print("\n".join(tail))
@@ -135,6 +143,11 @@ def build(validate: bool) -> bool:
 
 
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
+    def translate_path(self, path):
+        relative = unquote(urlsplit(path).path).lstrip('/')
+        original = resolve_asset(ROOT, Path(self.directory), relative)
+        return str(original) if original else super().translate_path(path)
+
     def log_message(self, format: str, *args) -> None:  # noqa: A002
         pass
 
@@ -218,6 +231,8 @@ def main() -> int:
     sub = parser.add_subparsers(dest="command")
     b = sub.add_parser("build", help="build the site once")
     b.add_argument("--validate", action="store_true", help="run the full validator after building")
+    e = sub.add_parser("export", help="build and export a portable reading ZIP")
+    e.add_argument("--validate", action="store_true", help="run the full validator after building")
     s = sub.add_parser("serve", help="build, serve and watch")
     s.add_argument("--port", type=int, default=8765)
     s.add_argument("--validate", action="store_true", help="run the full validator after every build")
@@ -237,8 +252,10 @@ def main() -> int:
     if Path(sys.executable).absolute() != python.absolute():
         os.execv(str(python), [str(python), str(Path(__file__).resolve()), *sys.argv[1:]])
     command = args.command or "serve"
-    if command == "build":
+    if command in {"build", "export"}:
         ensure_dependencies()
+        if command == 'export':
+            return 0 if build(args.validate, archive=True) else 1
         return 0 if build(args.validate) else 1
     port = getattr(args, "port", 8765)
     try:

@@ -49,6 +49,16 @@ This creates **one shared Conda environment named `fiveg-notebooks`**, outside t
 
 The initial repository contains about **120 MiB** of teaching files, primarily figures and retained MATLAB results. A clone also stores about **107 MiB** of compressed Git data. Python, Jupyter, Quarto and their dependencies are separate: the first installation can require **1–2 GB or more**, plus Conda package caches. Reusing an installed environment avoids another copy of those packages. Local protocol PDFs, the protocol ZIP and generated reading pages also use disk space in each clone. `git clone`, `git pull` and ordinary startup never install packages. The launcher prints the interpreter it uses.
 
+Local builds reuse the original figures and protocol files through the course server. Successful builds remove the intermediate resource copies and the previously generated reading ZIP. The source notes, original images and MATLAB results remain in their module folders. Quarto uses temporary extra space while rendering; failed builds retain a diagnostic folder identified in the error message.
+
+Only create a portable reading ZIP when you need to distribute one:
+
+```sh
+python publish_site.py export --validate
+```
+
+It appears at `site/Saar-5G-NR-Teaching-Knowledge-Base.zip`. Copy it elsewhere to keep it across later ordinary builds. The portable ZIP includes images and uses official protocol links. The normal local site needs `start.py` or `publish_site.py` to serve its shared assets.
+
 The direct dependencies are pinned in [environment.yml](environment.yml) and the requirements file. Conda resolves additional platform dependencies; binary packages may therefore differ between operating systems. This setup and MATLAB execution have been tested on macOS. Windows and Linux execution still need testing on those platforms.
 
 If the official PDF service is unavailable, add `--skip-references` to the chosen setup command. The next `python start.py` retries the reference download before opening the course. An existing PDF with a different checksum causes an error; inspect the named file before retrying.

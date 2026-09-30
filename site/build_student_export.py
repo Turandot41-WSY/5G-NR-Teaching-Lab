@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Build the complete Saar 5G NR Quarto website and student ZIP."""
+"""Build the local Saar 5G NR website; --archive also exports a portable ZIP."""
 
 from __future__ import annotations
 
+import argparse
 import re
 import json
 import shutil
@@ -24,10 +25,11 @@ if str(Path(__file__).resolve().parent) not in sys.path:
 
 from export_theme import render_export_css, render_export_js, render_export_theme_scss
 import note_annotations
+from local_assets import compact_assets, resolve_asset, reading_export
 
 REPOSITORY = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPOSITORY / 'references/3gpp'))
-from specifications import (localize_links, verified_documents, copy_documents, reading_archive,
+from specifications import (localize_links, verified_documents, copy_documents,
                             records, copy_protocol_archive, PROTOCOL_ZIP, OFFICIAL_INDEX)
 ROOT = REPOSITORY / "notes"
 EXPORT = Path(__file__).resolve().parent
@@ -290,7 +292,9 @@ def validate_rendered_site(sources: dict[Path, str]) -> None:
             target = (SITE / local.lstrip("/") if local.startswith("/") else page.parent / local).resolve() if local else page
             if target.is_dir():
                 target = target / "index.html"
-            if not target.is_relative_to(SITE.resolve()) or not target.exists():
+            if not target.is_relative_to(SITE.resolve()):
+                raise RuntimeError(f"broken local resource in {page.relative_to(SITE)}: {link}")
+            if not target.exists() and resolve_asset(REPOSITORY, SITE, target.relative_to(SITE.resolve()).as_posix()) is None:
                 raise RuntimeError(f"broken local resource in {page.relative_to(SITE)}: {link}")
             if parsed.fragment and target in parsed_pages and unquote(parsed.fragment) not in parsed_pages[target].ids:
                 raise RuntimeError(f"broken local anchor in {page.relative_to(SITE)}: {link}")
@@ -305,6 +309,8 @@ def verify_input_hashes(hashes: dict[Path, str]) -> None:
 
 def promote_build(stage: Path, destination: Path) -> None:
     """Install a checked render with rollback if any replacement fails."""
+    if not (stage/'student-site/index.html').is_file():
+        raise ValueError('A complete staged site is required before promotion')
     names = ("student-source", "student-site", "Saar-5G-NR-Teaching-Knowledge-Base.zip")
     previous = stage / "previous"
     previous.mkdir()
@@ -316,8 +322,9 @@ def promote_build(stage: Path, destination: Path) -> None:
             if current.exists():
                 current.rename(previous / name)
                 backed_up.append(name)
-            (stage / name).rename(current)
-            installed.append(name)
+            if name != 'student-source' and (stage / name).exists():
+                (stage / name).rename(current)
+                installed.append(name)
     except Exception:
         for name in reversed(installed):
             (destination / name).rename(stage / name)
@@ -431,6 +438,7 @@ def build_staged() -> None:
     # Capture mutable manifests and source before approval and conversion.
     inputs = [*paths, *uni_notes(), *required, REPOSITORY / "LICENSE", EXPORT / "tokens.css", Path(__file__),
               EXPORT / "export_theme.py", EXPORT / "note_annotations.py", EXPORT / "approved-design.css",
+              EXPORT / "local_assets.py",
               *(ROOT / "01 Source Collections").glob("*.yml"),
               *(ROOT / "01 Source Collections").glob("*.json")]
     hashes = {path: hashlib.sha256(path.read_bytes()).hexdigest() for path in inputs}
@@ -487,12 +495,19 @@ def build_staged() -> None:
     leaked = [p for p in SITE.rglob("*") if p.is_file() and p.suffix.casefold() in forbidden and p not in local_pdfs]
     if leaked:
         raise RuntimeError(f"private binary source leaked: {leaked}")
-    reading_archive(REPOSITORY, SITE, str(ZIP_BASE)+'.zip')
+    assets = {export_asset_rel(image): image for image in images}
+    assets.update({path.relative_to(SITE).as_posix(): REPOSITORY/path.relative_to(SITE)
+                   for path in local_pdfs})
+    compact_assets(REPOSITORY, SITE, assets)
+    validate_rendered_site(source_map)
     print("validated", len(paths), "Star pages and", len(uni_notes()), "Uni pages")
 
 
 def main() -> None:
     global SOURCE, SITE, ZIP_BASE
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--archive', action='store_true', help='Also create a portable reading ZIP')
+    args = parser.parse_args()
     previous_paths = SOURCE, SITE, ZIP_BASE
     # Quarto excludes input below hidden directory components from project discovery.
     stage = Path(tempfile.mkdtemp(prefix="build-staging-", dir=EXPORT))
@@ -500,6 +515,8 @@ def main() -> None:
     ZIP_BASE = stage / "Saar-5G-NR-Teaching-Knowledge-Base"
     try:
         build_staged()
+        if args.archive:
+            reading_export(REPOSITORY, SITE, str(ZIP_BASE)+'.zip')
         promote_build(stage, EXPORT)
     except Exception:
         print(f"Build was not installed. Diagnostic files: {stage}", file=sys.stderr)

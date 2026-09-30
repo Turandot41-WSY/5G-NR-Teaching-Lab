@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import sys
 import nbformat
 from tornado import web
 from jupyter_server.base.handlers import AuthenticatedFileHandler, JupyterHandler
@@ -11,6 +12,8 @@ from jupyter_server.auth.decorator import authorized
 HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parents[1]
 SITE = PROJECT / 'site/student-site'
+sys.path.insert(0, str(PROJECT/'site'))
+from local_assets import resolve_asset
 CELL_SOURCE = PROJECT / 'jupyter/cells/Uni-01 Execution Cells.md'
 UNI_PAGE = 'uni/uni-01-cell-search-synchronization-and-mib-recovery.html'
 
@@ -96,6 +99,10 @@ class CourseFiles(AuthenticatedFileHandler):
             self.set_header('Cache-Control','no-store')
             self.finish(decorate_html((SITE / path).read_text(), lab))
         else:
+            original = resolve_asset(PROJECT, SITE, path)
+            if original:
+                self.root = str(original.parent)
+                path = original.name
             await super().get(path or 'index.html', **kwargs)
 
 
