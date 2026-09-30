@@ -1,0 +1,32 @@
+{
+  "cellID": 321,
+  "ssbIndex": 0,
+  "Lmax": 8,
+  "subcarrierSpacing": 30,
+  "captureResourceBlocks": 24,
+  "firstSsbSymbol": 2,
+  "systemFrameNumber": 426,
+  "halfFrame": 0,
+  "kSsb": 0,
+  "mibSubcarrierSpacingCommon": 30,
+  "dmrsTypeAPosition": 2,
+  "pdcchConfigSib1": 0,
+  "seed": 61001,
+  "receiver": {
+    "subcarrierSpacing": 30,
+    "sampleRate": 1.536E+7,
+    "Lmax": 8,
+    "searchOffsetsHz": [
+      -60000,
+      -45000,
+      -30000,
+      -15000,
+      0,
+      15000,
+      30000,
+      45000,
+      60000
+    ],
+    "correctFrequency": true
+  }
+}

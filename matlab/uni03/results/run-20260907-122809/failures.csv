@@ -1,0 +1,7 @@
+caseName,dciAccepted,transportAccepted,candidateAttempts
+baseline,1,1,7
+wrong SI-RNTI,0,0,12
+wrong CORESET offset,0,0,12
+wrong slot,0,0,6
+wrong MCS,1,0,7
+odd frame,0,0,0

@@ -1,0 +1,8 @@
+scenario,terminal,observationTimeMs,passed
+success,CONNECTED_AND_BIDIRECTIONAL,93,1
+missing RAR,RAR_WINDOW_EXPIRED,90.5,1
+wrong RAPID,RAR_WINDOW_EXPIRED,90.5,1
+Msg3 CRC failure,CONTENTION_TIMER_EXPIRED,147,1
+wrong contention identity,CONTENTION_TIMER_EXPIRED,147,1
+SetupComplete transaction mismatch,GNB_AWAITS_MATCHING_COMPLETE,88.5,1
+SetupComplete CRC failure,GNB_AWAITS_COMPLETE,88.5,1

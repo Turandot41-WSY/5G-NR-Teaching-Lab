@@ -1,0 +1,78 @@
+/* Approved 2026-09-08. Scope: annotations, source labels, Ferrari night, code. */
+main.content .hm-annotation,
+main.content .hm-inline-annotation,
+main.content div.callout:is([data-hm-kind="important"], [data-hm-kind="warning"], [data-hm-kind="note"]) {
+  --annotation-color: var(--annotation-note);
+  background: color-mix(in srgb, var(--annotation-color) var(--annotation-strength), var(--annotation-paper));
+  color: var(--annotation-ink); border: 1px solid var(--annotation-ink); border-radius: 0;
+  padding: 10px 14px;
+}
+main.content [data-hm-kind="important"] { --annotation-color: var(--annotation-important); }
+main.content [data-hm-kind="warning"] { --annotation-color: var(--annotation-warning); }
+main.content .hm-annotation[data-hm-kind="important"], main.content div.callout[data-hm-kind="important"],
+main.content .hm-inline-annotation[data-hm-kind="important"] { --annotation-color: var(--annotation-important); }
+main.content .hm-annotation[data-hm-kind="warning"], main.content div.callout[data-hm-kind="warning"],
+main.content .hm-inline-annotation[data-hm-kind="warning"] { --annotation-color: var(--annotation-warning); }
+main.content .hm-annotation { margin-block: var(--space-sm); }
+main.content .hm-annotation::before {
+  content: attr(data-hm-kind); display: block; text-transform: uppercase;
+  font: 700 11px/1.2 var(--font-label); margin-bottom: 6px;
+}
+main.content .hm-inline-annotation { padding: 1px 3px; border: 0; box-decoration-break: clone; }
+main.content .hm-annotation > :last-child { margin-bottom: 0; }
+main.content div.callout:is([data-hm-kind="important"], [data-hm-kind="warning"], [data-hm-kind="note"]) :is(.callout-header,.callout-body,.callout-body-container) {
+  background: transparent; color: inherit; border: 0; padding: 0;
+}
+main.content div.callout:is([data-hm-kind="important"], [data-hm-kind="warning"], [data-hm-kind="note"]) .callout-header {
+  margin-bottom: 6px;
+}
+main.content div.callout:is([data-hm-kind="important"], [data-hm-kind="warning"], [data-hm-kind="note"]) .callout-header::before {
+  background: transparent; color: inherit; padding: 0; margin-right: 10px;
+}
+main.content :is(.hm-annotation,.hm-inline-annotation,[data-hm-kind="important"],[data-hm-kind="warning"],[data-hm-kind="note"]) :is(a,code) {
+  color: inherit; background: transparent;
+}
+main.content :is(.hm-annotation,.hm-inline-annotation,[data-hm-kind="important"],[data-hm-kind="warning"],[data-hm-kind="note"]) a { text-decoration: underline; }
+main.content [data-hm-kind="spec"] { --source-ink: var(--source-light-ink); }
+main.content [data-hm-kind="engineering"] { --source-ink: var(--source-light-ink); }
+main.content [data-hm-kind="book"], main.content [data-hm-kind="matlab"], main.content [data-hm-kind="result"] { --source-ink: var(--source-dark-ink); }
+main.content div.callout:is([data-hm-kind="spec"],[data-hm-kind="engineering"],[data-hm-kind="book"],[data-hm-kind="matlab"],[data-hm-kind="result"]) .callout-header { color: var(--source-ink); }
+main.content div.callout:is([data-hm-kind="spec"],[data-hm-kind="engineering"],[data-hm-kind="book"],[data-hm-kind="matlab"],[data-hm-kind="result"]) .callout-header[data-hm-source]::before { background: transparent; color: var(--source-ink); }
+main.content :is(h2,h3)[data-hm-src="spec"]::before,
+main.content :is(h2,h3)[data-hm-src="engineering"]::before,
+main.content section[data-hm-stage="spec"] > :is(h2,h3)::before { color: var(--source-light-ink); }
+main.content :is(h2,h3)[data-hm-chip]::before { border-color: var(--hm-stage-tint); }
+.hm-code-label {
+  margin-top: var(--space-sm); padding-bottom: 9px; border-bottom: 3px solid var(--t-matlab);
+  font: 700 11px/1.2 var(--font-label); letter-spacing: .04em;
+}
+.hm-code-label span { display: inline-block; padding: 4px 9px; background: var(--t-matlab); color: var(--source-dark-ink); }
+main.content div.sourceCode, main.content pre.sourceCode, main.content pre.sourceCode code {
+  background: var(--code-paper); color: var(--code-ink);
+}
+main.content pre.sourceCode code span { color: var(--code-ink); }
+main.content pre.sourceCode code span:is(.kw,.fu,.bu,.cf,.hm-code-function) { color: var(--code-keyword); font-weight: 700; }
+main.content pre.sourceCode code span:is(.st,.ss,.ch,.vs) { color: var(--code-string); }
+main.content pre.sourceCode code span:is(.dv,.bn,.fl) { color: var(--code-number); }
+main.content pre.sourceCode code span:is(.co,.cv,.an) { color: var(--code-comment); }
+main.content pre.sourceCode { white-space: pre-wrap; overflow-wrap: anywhere; }
+html[data-hm-theme="dark"] { color-scheme: dark; }
+html[data-hm-theme="dark"] #hm-banner,
+html[data-hm-theme="dark"] .hm-btn { background: var(--canvas); color: var(--ink); }
+html[data-hm-theme="dark"] #TOC a.active,
+html[data-hm-theme="dark"] #quarto-sidebar .active,
+html[data-hm-theme="dark"] #quarto-sidebar .active .menu-text,
+html[data-hm-theme="dark"] #hm-banner .hm-code { color: var(--link) !important; }
+html[data-hm-theme="dark"] #quarto-sidebar { scrollbar-color: var(--muted) var(--canvas); }
+html[data-hm-theme="dark"] #quarto-sidebar .sidebar-item-text,
+html[data-hm-theme="dark"] #quarto-sidebar .menu-text { color: var(--body) !important; }
+html[data-hm-theme="dark"] #quarto-sidebar .active .menu-text,
+html[data-hm-theme="dark"] #TOC a.active:visited,
+html[data-hm-theme="dark"] main.content a:visited { color: var(--link) !important; }
+html[data-hm-theme="dark"] main.content :is(.hm-annotation,.hm-inline-annotation,[data-hm-kind="important"],[data-hm-kind="warning"],[data-hm-kind="note"]) a:visited { color: var(--annotation-ink) !important; }
+@media (max-width: 700px) {
+  #hm-banner .hm-code { display: none; }
+  main.content :is(h1,h2,h3,p,td,th) { overflow-wrap: anywhere; min-width: 0; }
+  main.content table { width: 100%; max-width: 100%; table-layout: fixed; }
+  main.content :is(td,th) { white-space: normal; }
+}

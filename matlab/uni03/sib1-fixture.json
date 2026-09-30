@@ -1,0 +1,653 @@
+{
+  "codec": "pycrate",
+  "version": "0.8.1",
+  "message": {
+    "message": [
+      "c1",
+      [
+        "systemInformationBlockType1",
+        {
+          "cellSelectionInfo": {
+            "q-RxLevMin": -65
+          },
+          "cellAccessRelatedInfo": {
+            "plmn-IdentityInfoList": [
+              {
+                "plmn-IdentityList": [
+                  {
+                    "mcc": [
+                      0,
+                      0,
+                      1
+                    ],
+                    "mnc": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "trackingAreaCode": [
+                  1,
+                  24
+                ],
+                "cellIdentity": [
+                  321,
+                  36
+                ],
+                "cellReservedForOperatorUse": "notReserved"
+              }
+            ]
+          },
+          "servingCellConfigCommon": {
+            "downlinkConfigCommon": {
+              "frequencyInfoDL": {
+                "frequencyBandList": [
+                  {
+                    "freqBandIndicatorNR": 78
+                  }
+                ],
+                "offsetToPointA": 8,
+                "scs-SpecificCarrierList": [
+                  {
+                    "offsetToCarrier": 0,
+                    "subcarrierSpacing": "kHz30",
+                    "carrierBandwidth": 51
+                  }
+                ]
+              },
+              "initialDownlinkBWP": {
+                "genericParameters": {
+                  "locationAndBandwidth": 6329,
+                  "subcarrierSpacing": "kHz30"
+                }
+              },
+              "bcch-Config": {
+                "modificationPeriodCoeff": "n2"
+              },
+              "pcch-Config": {
+                "defaultPagingCycle": "rf128",
+                "nAndPagingFrameOffset": [
+                  "oneT",
+                  0
+                ],
+                "ns": "one"
+              }
+            },
+            "uplinkConfigCommon": {
+              "frequencyInfoUL": {
+                "scs-SpecificCarrierList": [
+                  {
+                    "offsetToCarrier": 0,
+                    "subcarrierSpacing": "kHz30",
+                    "carrierBandwidth": 51
+                  }
+                ]
+              },
+              "initialUplinkBWP": {
+                "genericParameters": {
+                  "locationAndBandwidth": 6325,
+                  "subcarrierSpacing": "kHz30"
+                },
+                "rach-ConfigCommon": [
+                  "setup",
+                  {
+                    "rach-ConfigGeneric": {
+                      "prach-ConfigurationIndex": 0,
+                      "msg1-FDM": "one",
+                      "msg1-FrequencyStart": 0,
+                      "zeroCorrelationZoneConfig": 0,
+                      "preambleReceivedTargetPower": -100,
+                      "preambleTransMax": "n10",
+                      "powerRampingStep": "dB2",
+                      "ra-ResponseWindow": "sl20"
+                    },
+                    "ra-ContentionResolutionTimer": "sf64",
+                    "prach-RootSequenceIndex": [
+                      "l839",
+                      22
+                    ],
+                    "restrictedSetConfig": "unrestrictedSet"
+                  }
+                ]
+              },
+              "timeAlignmentTimerCommon": "ms10240"
+            },
+            "ssb-PositionsInBurst": {
+              "inOneGroup": [
+                128,
+                8
+              ]
+            },
+            "ssb-PeriodicityServingCell": "ms20",
+            "tdd-UL-DL-ConfigurationCommon": {
+              "referenceSubcarrierSpacing": "kHz30",
+              "pattern1": {
+                "dl-UL-TransmissionPeriodicity": "ms5",
+                "nrofDownlinkSlots": 4,
+                "nrofDownlinkSymbols": 0,
+                "nrofUplinkSlots": 5,
+                "nrofUplinkSymbols": 0
+              }
+            },
+            "ss-PBCH-BlockPower": -10
+          }
+        }
+      ]
+    ]
+  },
+  "randomAccess": {
+    "rach-ConfigGeneric": {
+      "prach-ConfigurationIndex": 0,
+      "msg1-FDM": "one",
+      "msg1-FrequencyStart": 0,
+      "zeroCorrelationZoneConfig": 0,
+      "preambleReceivedTargetPower": -100,
+      "preambleTransMax": "n10",
+      "powerRampingStep": "dB2",
+      "ra-ResponseWindow": "sl20"
+    },
+    "ra-ContentionResolutionTimer": "sf64",
+    "prach-RootSequenceIndex": [
+      "l839",
+      22
+    ],
+    "restrictedSetConfig": "unrestrictedSet"
+  },
+  "common": {
+    "downlinkConfigCommon": {
+      "frequencyInfoDL": {
+        "frequencyBandList": [
+          {
+            "freqBandIndicatorNR": 78
+          }
+        ],
+        "offsetToPointA": 8,
+        "scs-SpecificCarrierList": [
+          {
+            "offsetToCarrier": 0,
+            "subcarrierSpacing": "kHz30",
+            "carrierBandwidth": 51
+          }
+        ]
+      },
+      "initialDownlinkBWP": {
+        "genericParameters": {
+          "locationAndBandwidth": 6329,
+          "subcarrierSpacing": "kHz30"
+        }
+      },
+      "bcch-Config": {
+        "modificationPeriodCoeff": "n2"
+      },
+      "pcch-Config": {
+        "defaultPagingCycle": "rf128",
+        "nAndPagingFrameOffset": [
+          "oneT",
+          0
+        ],
+        "ns": "one"
+      }
+    },
+    "uplinkConfigCommon": {
+      "frequencyInfoUL": {
+        "scs-SpecificCarrierList": [
+          {
+            "offsetToCarrier": 0,
+            "subcarrierSpacing": "kHz30",
+            "carrierBandwidth": 51
+          }
+        ]
+      },
+      "initialUplinkBWP": {
+        "genericParameters": {
+          "locationAndBandwidth": 6325,
+          "subcarrierSpacing": "kHz30"
+        },
+        "rach-ConfigCommon": [
+          "setup",
+          {
+            "rach-ConfigGeneric": {
+              "prach-ConfigurationIndex": 0,
+              "msg1-FDM": "one",
+              "msg1-FrequencyStart": 0,
+              "zeroCorrelationZoneConfig": 0,
+              "preambleReceivedTargetPower": -100,
+              "preambleTransMax": "n10",
+              "powerRampingStep": "dB2",
+              "ra-ResponseWindow": "sl20"
+            },
+            "ra-ContentionResolutionTimer": "sf64",
+            "prach-RootSequenceIndex": [
+              "l839",
+              22
+            ],
+            "restrictedSetConfig": "unrestrictedSet"
+          }
+        ]
+      },
+      "timeAlignmentTimerCommon": "ms10240"
+    },
+    "ssb-PositionsInBurst": {
+      "inOneGroup": [
+        128,
+        8
+      ]
+    },
+    "ssb-PeriodicityServingCell": "ms20",
+    "tdd-UL-DL-ConfigurationCommon": {
+      "referenceSubcarrierSpacing": "kHz30",
+      "pattern1": {
+        "dl-UL-TransmissionPeriodicity": "ms5",
+        "nrofDownlinkSlots": 4,
+        "nrofDownlinkSymbols": 0,
+        "nrofUplinkSlots": 5,
+        "nrofUplinkSymbols": 0
+      }
+    },
+    "ss-PBCH-BlockPower": -10
+  },
+  "canonicalHex": "64000a0208008040000040000005069084d0080000232018b920840000023240c5a980000000333378163201058080050640",
+  "hex": "64000a0208008040000040000005069084d0080000232018b920840000023240c5a980000000333378163201058080050640",
+  "bits": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

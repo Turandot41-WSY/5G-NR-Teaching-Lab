@@ -1,0 +1,8 @@
+name: fiveg-notebooks
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip=25.2
+  - quarto=1.8.27

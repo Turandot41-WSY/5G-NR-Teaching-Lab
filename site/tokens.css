@@ -1,0 +1,141 @@
+/* Saarland University 5G NR Teaching Knowledge Base — design tokens.
+   Source references: .hallmark/references/dell-1996.DESIGN.md (type, colour, chrome)
+   and .hallmark/references/apple.DESIGN.md (reading layout, image presentation).
+   Dell supplies the palette, the three font families and the hard black chrome;
+   Apple supplies the reading measure, the vertical rhythm and the quiet figure plates. */
+
+:root {
+  /* ── Dell 1996 palette ─────────────────────────────────────── */
+  --canvas:          #ffffff;   /* true white inside the frame */
+  --canvas-elevated: #f5f5f7;   /* Apple parchment: figure plates, code, sidebar */
+  --canvas-card:     #ffffff;
+  --ink:             #000000;   /* headings, frames, hairlines */
+  --body:            #1d1d1f;   /* Apple near-black for long reading */
+  --body-muted:      #4a4a4a;
+  --muted:           #6e6e73;
+  --hairline:        #d5d5d5;
+  --hairline-strong: #000000;
+  --frame-ink:       #000000;
+  --accent:          #e91d2a;   /* Dell red: the single attention pole */
+  --accent-deep:     #c4101c;
+  --accent-wash:     #fdebec;
+  --accent-ink:      #ffffff;
+  --yellow:          #fcc20f;   /* Dell sticker yellow: highlights only */
+  --link:            #0000ee;   /* classic 1996 link blue */
+  --focus:           #0000ee;
+  --shade:           rgba(0, 0, 0, 0.035);
+  --overlay:         rgba(0, 0, 0, 0.5);
+  --figure-paper:    #ffffff;
+
+  /* ── Knowledge-source colours (Dell 1996 tints), one meaning each ──
+     book = textbook (Dahlman)  spec = 3GPP protocol  engineering = ShareTechnote
+     supp = other supplement material  insight = author's summary  matlab = simulation
+     result = measured result  failure = failure case  warn = reading note  structure = section purpose */
+  --t-spec:        #da291c;  --t-spec-deep:        #a41f15;  --t-spec-wash:        color-mix(in srgb, var(--t-spec) 7%, var(--canvas));
+  --t-book:        #a5b8c0;  --t-book-deep:        #43555d;  --t-book-wash:        color-mix(in srgb, var(--t-book) 7%, var(--canvas));
+  --t-engineering: #0046a4;  --t-engineering-deep: #0046a4;  --t-engineering-wash: color-mix(in srgb, var(--t-engineering) 7%, var(--canvas));
+  --t-insight:     #8c9ae0;  --t-insight-deep:     #545e94;  --t-insight-wash:     #f4f5fb;
+  --t-search:      #a5b8c0;  --t-search-deep:      #56646a;  --t-search-wash:      #f4f6f7;
+  --t-structure:   #8e8a25;  --t-structure-deep:   #62601a;  --t-structure-wash:   #f6f5eb;
+  --t-figure:      #e6915d;  --t-figure-deep:      #8a5432;  --t-figure-wash:      #fbf1ea;
+  --t-trace:       #6a26a4;  --t-trace-deep:       #5a2089;  --t-trace-wash:       #f4eef9;
+  --t-warn:        #fcc20f;  --t-warn-deep:        #7a5c04;  --t-warn-wash:        #fff8dd;
+  --t-matlab:      #76b900;  --t-matlab-deep:      #365800;  --t-matlab-wash:      color-mix(in srgb, var(--t-matlab) 7%, var(--canvas));
+  --t-result:      #76b900;  --t-result-deep:      #365800;  --t-result-wash:      color-mix(in srgb, var(--t-result) 7%, var(--canvas));
+  --t-failure:     #d77a7a;  --t-failure-deep:     #7a3131;  --t-failure-wash:     #fbeeee;
+  --t-tradeoff:    #e6915d;  --t-tradeoff-deep:    #8a5432;  --t-tradeoff-wash:    #fbf1ea;
+  --t-parameter:   #a5b8c0;  --t-parameter-deep:   #56646a;  --t-parameter-wash:   #f4f6f7;
+  --t-supp:        #e6915d;  --t-supp-deep:        #8a4a22;  --t-supp-wash:        #fcf0e7;
+
+  /* ── Type: Dell's three families ───────────────────────────── */
+  --font-display: "Arial Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-label:   "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body:    "Times New Roman", Times, serif;
+  --font-mono:    ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-root:  18px;          /* Times needs one pixel more than Apple's 17 */
+  --text-xs:    0.72rem;       /* 13 px Helvetica labels */
+  --text-sm:    0.83rem;       /* 15 px */
+  --text-base:  1rem;          /* 18 px body */
+  --text-md:    1.06rem;
+  --text-lg:    1.25rem;
+  --text-xl:    1.5rem;        /* 27 px H2 */
+  --text-2xl:   2rem;          /* 36 px display */
+  --text-title: clamp(1.9rem, 2.4vw + 1rem, 2.6rem);
+
+  --lh-display: 1.05;
+  --lh-snug:    1.2;
+  --lh-normal:  1.45;
+  --lh-read:    1.5;
+
+  /* ── Apple spacing rhythm (8 px base) ─────────────────────── */
+  --space-xxxs:  4px;
+  --space-xxs:   8px;
+  --space-xs:   16px;
+  --space-sm:   24px;
+  --space-md:   32px;
+  --space-lg:   48px;
+  --space-xl:   64px;
+  --space-xxl:  96px;
+
+  --measure:        66ch;      /* Apple: about 720 px of Times at 18 px */
+  --measure-wide:   100%;
+  --reading-scale:  1;
+  --frame-width:    8px;       /* Dell page frame */
+  --rule-hair:      1px;
+  --rule-tint:      4px;
+  --radius:         0px;       /* Dell: nothing is rounded */
+  --radius-input:   0px;
+  --shadow-figure:  none;
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 140ms;
+  --dur-rail:  260ms;
+}
+
+:root {
+  /* S12 approved annotation and code tokens. Background strength never fades text. */
+  --annotation-important: #fcc20f;
+  --annotation-warning: #e6915d;
+  --annotation-note: #acace7;
+  --annotation-strength: 50%;
+  --annotation-paper: #ffffff;
+  --annotation-ink: #000000;
+  --source-light-ink: #ffffff;
+  --source-dark-ink: #000000;
+  --t-neutral: #a5b8c0;
+  --code-paper: #f7f7f7; --code-ink: #1a1a1a;
+  --code-keyword: #3d8100; --code-string: #0046a4;
+  --code-number: #650b0b; --code-comment: #5e5e5e;
+  --t-insight: var(--t-neutral); --t-supp: var(--t-neutral);
+}
+html[data-hm-theme="dark"] {
+  --canvas: #181818; --canvas-elevated: #303030; --canvas-card: #303030;
+  --ink: #ffffff; --body: #ebebeb; --body-muted: #d2d2d2; --muted: #969696;
+  --hairline: #303030; --hairline-strong: #969696; --frame-ink: #181818;
+  --accent: #da291c; --accent-deep: #ff8b82; --accent-wash: #34201e;
+  --accent-ink: #ffffff; --link: #ff8b82; --focus: #ffffff;
+  --annotation-strength: 100%;
+  --code-paper: #181818; --code-ink: #ffffff;
+  --code-keyword: #ec3d48; --code-string: #cccccc;
+  --code-number: #fcc20f; --code-comment: #a7a7a7;
+  /* Paragraph leads and inline code need a matching night foreground and surface. */
+  --t-insight-deep: var(--t-neutral);
+  --t-structure-deep: var(--t-neutral);
+  --t-structure-wash: var(--canvas-elevated);
+  --t-spec-deep: #ff8b82; --t-book-deep: #a5b8c0;
+  --t-engineering-deep: #9bbdf1; --t-matlab-deep: #a5d84e; --t-result-deep: #a5d84e;
+  --t-spec-wash: color-mix(in srgb, var(--t-spec) 13%, var(--canvas));
+  --t-book-wash: color-mix(in srgb, var(--t-book) 13%, var(--canvas));
+  --t-engineering-wash: color-mix(in srgb, var(--t-engineering) 13%, var(--canvas));
+  --t-matlab-wash: color-mix(in srgb, var(--t-matlab) 13%, var(--canvas));
+  --t-result-wash: color-mix(in srgb, var(--t-result) 13%, var(--canvas));
+}
+
+html[data-hm-width="narrow"] { --measure: 56ch; }
+html[data-hm-width="wide"]   { --measure: 80ch; }
+html[data-hm-width="fill"]   { --measure: 100%; }
+html[data-hm-size="s"] { --reading-scale: 0.92; }
+html[data-hm-size="l"] { --reading-scale: 1.12; }
+
+@media (max-width: 768px) { :root { --frame-width: 4px; --space-xxl: 48px; --space-xl: 32px; } }
+@media (max-width: 480px) { :root { --frame-width: 2px; } }

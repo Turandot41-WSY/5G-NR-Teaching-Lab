@@ -1,0 +1,32 @@
+/* Uni execution controls inherit the approved course palette and type. */
+/* Long MATLAB identifiers in existing parameter tables need legal wrap points. */
+main.content :not(pre) > code { white-space:normal; overflow-wrap:anywhere; }
+.uni-runtime-toolbar { max-width:var(--measure); border:1px solid var(--hairline-strong); padding:14px; margin:24px 0; background:var(--canvas-elevated); }
+.uni-runtime-toolbar p { margin:8px 0 !important; }
+.uni-runtime-actions { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.uni-runtime-actions button { font:600 13px var(--font-label); background:var(--canvas); color:var(--body); border:1px solid var(--hairline-strong); padding:7px 12px; }
+.uni-runtime-actions button:disabled { opacity:.5; cursor:not-allowed; }
+.uni-runtime-actions button:focus-visible, .uni-editor textarea:focus-visible { outline:2px solid var(--focus); outline-offset:3px; }
+.uni-runtime-cell { max-width:var(--measure); margin:26px 0; }
+.uni-runtime-cell h4 { margin:0 0 12px !important; }
+.uni-runtime-cell .hm-code-label { margin:0 0 12px; }
+.uni-runtime-state { font:13px var(--font-label); color:var(--body-muted); }
+.uni-runtime-state[data-state="error"] { color:var(--link); }
+.uni-editor { display:grid; background:var(--code-paper); border:1px solid var(--hairline-strong); margin:10px 0; max-height:380px; overflow:auto; }
+main.content .uni-editor pre, main.content .uni-editor textarea {
+  grid-area:1/1; font:14px/1.65 var(--font-mono); padding:14px; margin:0;
+  white-space:pre-wrap; overflow-wrap:anywhere; tab-size:4; border:0; min-width:0;
+}
+main.content .uni-editor pre { background:transparent; color:var(--code-ink); pointer-events:none; overflow:visible; }
+.uni-editor textarea { resize:none; width:100%; height:100%; background:transparent; color:transparent; caret-color:var(--code-ink); -webkit-text-fill-color:transparent; overflow:hidden; border-radius:0; }
+.uni-editor textarea::selection { background:rgba(120,140,160,.35); }
+.uni-editor .kw { color:var(--code-keyword); font-weight:bold; }
+.uni-editor .str { color:var(--code-string); }
+.uni-editor .num { color:var(--code-number); }
+.uni-editor .comment { color:var(--code-comment); }
+.uni-runtime-output { margin-top:12px; }
+.uni-runtime-output pre { white-space:pre-wrap; overflow-wrap:anywhere; color:var(--body); background:var(--canvas-elevated); padding:12px; }
+.uni-runtime-output img { display:block; width:auto !important; height:auto !important; max-width:100%; max-height:min(480px,60vh); object-fit:contain; margin:12px auto; }
+.uni-runtime-output[data-stale="true"] { opacity:.55; border-left:3px solid var(--annotation-warning); padding-left:10px; }
+.uni-runtime-output figcaption { font:13px var(--font-label); color:var(--body-muted); }
+@media(max-width:700px) { .uni-runtime-cell,.uni-runtime-toolbar { max-width:100%; } .uni-editor pre,.uni-editor textarea { font-size:12px !important; } }

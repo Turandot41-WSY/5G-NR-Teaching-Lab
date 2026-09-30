@@ -1,0 +1,21 @@
+{
+  "seed": 63003,
+  "cellID": 321,
+  "captureRB": 28,
+  "configuredCarrierRB": 51,
+  "scsKHz": 30,
+  "snrDb": 20,
+  "delaySamples": 19,
+  "cfoHz": 3400,
+  "conditionalTrialsPerSNR": 20,
+  "snrSweepDb": [
+    -8,
+    -4,
+    0,
+    4,
+    8,
+    16
+  ],
+  "conditionalSync": "known grid and recovered noiseless MIB",
+  "sib1Bits": 400
+}

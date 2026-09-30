@@ -1,0 +1,71 @@
+5G NR Teaching Lab — Education and Noncommercial Research License 1.0
+
+Copyright (c) 2026 Shiyi Wang
+
+1. Scope
+
+This license applies to the original teaching text, illustrations, code and
+supporting data in this repository to the extent that Shiyi Wang holds the
+rights needed to grant this license (the Material). Separately identified
+third-party material and dependencies remain under their own licenses.
+
+2. Permission
+
+Subject to the conditions below, you may use, run, reproduce, modify, display
+and distribute the Material and adaptations worldwide, without a royalty,
+for teaching, personal study and noncommercial research.
+
+Teaching includes ordinary courses at schools and universities, including
+institutions that charge tuition, provided the Material is used to support
+education rather than sold as a product or used for commercial training.
+Personal study means an individual's learning and experimentation.
+Noncommercial research means research whose use of the Material is not
+primarily intended for commercial advantage or monetary compensation.
+Publication of research findings in an academic journal or conference is
+permitted, including through a publisher that charges fees. Research funding
+alone does not determine whether a use is commercial; its purpose and use do.
+
+3. Conditions
+
+Keep the copyright notice, this license and the relevant source credits with
+copies and adaptations you distribute. Give reasonable attribution to Shiyi
+Wang and the 5G NR Teaching Lab, link to the source repository where practical,
+and identify your modifications. Clearly distinguish your contributions from
+the original Material and do not imply the author's or any institution's
+endorsement. Recipients must receive this license for the original Material
+and must not be given broader rights to that Material by a distributor.
+
+4. Uses requiring separate permission
+
+Commercial use requires prior written permission from Shiyi Wang. Examples
+include selling the Material or adaptations, paid commercial training based
+on the Material, and incorporating it into commercial products or services.
+Uses outside the purposes in section 2 also require separate permission.
+Contact: shiyi.wang@it-u.at
+
+5. Other rights
+
+This license does not grant rights to third-party books, standards, images,
+software, trademarks, personal information or patents. It does not restrict
+any use permitted by applicable law without permission, including applicable
+quotation, fair use or fair dealing exceptions. MATLAB and its toolboxes
+require their own licenses. Consult references/README.md for source handling.
+
+6. Term and termination
+
+Permission continues for the duration of the applicable rights while you
+comply with this license. A breach automatically terminates your permission.
+Permission is reinstated if the breach is cured within 30 days of discovery,
+or upon express written reinstatement by the rights holder. Reinstatement
+does not waive any remedies for an earlier breach. A later license change
+does not withdraw permission already granted for copies under these terms.
+
+7. Disclaimer
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE MATERIAL IS PROVIDED "AS IS",
+WITHOUT WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE OR NONINFRINGEMENT. THE RIGHTS HOLDERS ARE NOT LIABLE FOR CLAIMS,
+DAMAGES OR OTHER LIABILITY ARISING FROM THE MATERIAL OR ITS USE.
+
+This is a custom license with restrictions on purpose. It is not an
+OSI-approved open source license. All rights not expressly granted are reserved.

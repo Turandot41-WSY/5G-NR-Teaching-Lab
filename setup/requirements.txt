@@ -1,0 +1,9 @@
+jupyterlab==4.6.3
+jupyter-server==2.21.0
+jupyter-matlab-proxy==0.19.1
+matlab-proxy==0.34.0
+nbformat==5.11.1
+requests==2.34.2
+websocket-client==1.9.2
+PyYAML==6.0.3
+pycrate==0.8.1

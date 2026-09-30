@@ -1,0 +1,122 @@
+[
+  {
+    "star": 28,
+    "spec_number": "38.300",
+    "version": "18.10.0",
+    "title": "NR; NR and NG-RAN Overall description; Stage-2",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138300/18.10.00_60/ts_138300v181000p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.300/38300-ia0.zip",
+    "filename": "TS-38.300-v18.10.0.pdf",
+    "sha256": "4a23e3928527621682d0d2f4032807fb5d94c2ea2bac82f38f7a8927ddba3be1",
+    "bytes": 3193753,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 29,
+    "spec_number": "38.211",
+    "version": "18.9.0",
+    "title": "NR; Physical channels and modulation",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.211/38211-i90.zip",
+    "filename": "TS-38.211-v18.9.0.pdf",
+    "sha256": "fd911b078f51f79a9d7c8abc739d87b543bef25f9d4b596e9f766881a8d62368",
+    "bytes": 2509874,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 30,
+    "spec_number": "38.212",
+    "version": "18.8.0",
+    "title": "NR; Multiplexing and channel coding",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/18.08.00_60/ts_138212v180800p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.212/38212-i80.zip",
+    "filename": "TS-38.212-v18.8.0.pdf",
+    "sha256": "e0041d15e3512f98c5e448b505613cd20c9532c312c2de6c0864d4dc1928f777",
+    "bytes": 3201683,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 31,
+    "spec_number": "38.213",
+    "version": "18.8.0",
+    "title": "NR; Physical layer procedures for control",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138213/18.08.00_60/ts_138213v180800p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.213/38213-i80.zip",
+    "filename": "TS-38.213-v18.8.0.pdf",
+    "sha256": "0ed7639ad2db24a95a6d2eb289742e0f3773a0ca82066fc7bb453f28c5075819",
+    "bytes": 3790993,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 32,
+    "spec_number": "38.214",
+    "version": "18.10.0",
+    "title": "NR; Physical layer procedures for data",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/18.10.00_60/ts_138214v181000p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.214/38214-ia0.zip",
+    "filename": "TS-38.214-v18.10.0.pdf",
+    "sha256": "f03a28158173b0349e3abbca4f9834b41063bfab3122f17d408c2db49a0d9f38",
+    "bytes": 4359505,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 33,
+    "spec_number": "38.321",
+    "version": "18.10.0",
+    "title": "NR; Medium Access Control (MAC) protocol specification",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138321/18.10.00_60/ts_138321v181000p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.321/38321-ia0.zip",
+    "filename": "TS-38.321-v18.10.0.pdf",
+    "sha256": "3712d9c0ea1ca22b9c88681fd2dccae8206f3bf86f03fda5a6f22c0567f48152",
+    "bytes": 2209919,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 34,
+    "spec_number": "38.322",
+    "version": "18.2.0",
+    "title": "NR; Radio Link Control (RLC) protocol specification",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138322/18.02.00_60/ts_138322v180200p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.322/38322-i20.zip",
+    "filename": "TS-38.322-v18.2.0.pdf",
+    "sha256": "c8e181cc066c3078dcd7860ae0e7342a42841ff338e3ffd00412f7f7adb152e8",
+    "bytes": 263479,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 35,
+    "spec_number": "38.323",
+    "version": "18.5.0",
+    "title": "NR; Packet Data Convergence Protocol (PDCP) specification",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138323/18.05.00_60/ts_138323v180500p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.323/38323-i50.zip",
+    "filename": "TS-38.323-v18.5.0.pdf",
+    "sha256": "c3160c12ce693cfe484eca6fc3e69c5139732a5f857e13e3db3fb195438e0352",
+    "bytes": 472064,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 36,
+    "spec_number": "38.331",
+    "version": "18.10.0",
+    "title": "NR; Radio Resource Control (RRC) protocol specification",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/18.10.00_60/ts_138331v181000p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.331/38331-ia0.zip",
+    "filename": "TS-38.331-v18.10.0.pdf",
+    "sha256": "a0e5398d258ea5e33ea7b94ddbfd4938816971e770761d7149b879d924a1a37d",
+    "bytes": 7880318,
+    "verified_at": "2026-09-26"
+  },
+  {
+    "star": 37,
+    "spec_number": "38.401",
+    "version": "18.7.0",
+    "title": "NG-RAN; Architecture description",
+    "url": "https://www.etsi.org/deliver/etsi_ts/138400_138499/138401/18.07.00_60/ts_138401v180700p.pdf",
+    "archive_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.401/38401-i70.zip",
+    "filename": "TS-38.401-v18.7.0.pdf",
+    "sha256": "5b629f0b6f6f9d6fec832492682e10f5ce9f4d2deaab437de163686fb04a9b09",
+    "bytes": 2147532,
+    "verified_at": "2026-09-26"
+  }
+]

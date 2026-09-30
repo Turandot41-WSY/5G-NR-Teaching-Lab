@@ -1,0 +1,1856 @@
+[
+  {
+    "note": "Star-01-What-Is-5G.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 22.261 V18.19.0, clause 6, PDF page 18",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/22_series/22.261/22261-ij0.zip"
+  },
+  {
+    "note": "Star-01-What-Is-5G.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "5G topic index",
+    "official_url": "https://www.sharetechnote.com/html/5G/Handbook_5G_Index.html"
+  },
+  {
+    "note": "Star-02-5G-Standardization.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TR 21.918 V18.0.0, clause 4, PDF page 9",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/21_series/21.918/21918-i00.zip"
+  },
+  {
+    "note": "Star-02-5G-Standardization.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "5G agreements and standardization history",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_Agreements.html"
+  },
+  {
+    "note": "Star-03-Spectrum-for-5G.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.104 V18.14.0, clause 5, PDF page 36",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.104/38104-ie0.zip"
+  },
+  {
+    "note": "Star-03-Spectrum-for-5G.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "Operating-frequency overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_FR_Bandwidth.html"
+  },
+  {
+    "note": "Star-04-LTE-An-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 4, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-04-LTE-An-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 4, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-04-LTE-An-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 4, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-04-LTE-An-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 4, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-04-LTE-An-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 4, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-04-LTE-An-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 4, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-04-LTE-An-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 4, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.300 V18.10.0, clause 4.1, PDF page 24",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.300/38300-ia0.zip"
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "Definition of numerology",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_Phy_Numerology.html"
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-05-NR-Overview.md",
+    "source_kind": "notion",
+    "locator": "Chapter 5, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 16",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 17",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 18",
+    "official_url": ""
+  },
+  {
+    "note": "Star-06-Radio-Interface-Architecture.md",
+    "source_kind": "notion",
+    "locator": "Chapter 6, source image 19",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-07-Overall-Transmission-Structure.md",
+    "source_kind": "notion",
+    "locator": "Chapter 7, source image 16",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-08-Channel-Sounding.md",
+    "source_kind": "notion",
+    "locator": "Chapter 8, source image 16",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 16",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 17",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 18",
+    "official_url": ""
+  },
+  {
+    "note": "Star-09-Transport-Channel-Processing.md",
+    "source_kind": "notion",
+    "locator": "Chapter 9, source image 19",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.211 V18.9.0, clause 7.3.2.2, PDF page 135",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.211/38211-i90.zip"
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "PDCCH transport-process overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_PDCCH.html"
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 16",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 17",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 18",
+    "official_url": ""
+  },
+  {
+    "note": "Star-10-Physical-Layer-Control-Signaling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 10, source image 19",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-11-Multi-Antenna-Transmission.md",
+    "source_kind": "notion",
+    "locator": "Chapter 11, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-12-Beam-Management.md",
+    "source_kind": "notion",
+    "locator": "Chapter 12, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-12-Beam-Management.md",
+    "source_kind": "notion",
+    "locator": "Chapter 12, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-12-Beam-Management.md",
+    "source_kind": "notion",
+    "locator": "Chapter 12, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-12-Beam-Management.md",
+    "source_kind": "notion",
+    "locator": "Chapter 12, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-13-Retransmission-Protocols.md",
+    "source_kind": "notion",
+    "locator": "Chapter 13, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-14-Scheduling.md",
+    "source_kind": "notion",
+    "locator": "Chapter 14, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-15-Uplink-Power-and-Timing-Control.md",
+    "source_kind": "notion",
+    "locator": "Chapter 15, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-15-Uplink-Power-and-Timing-Control.md",
+    "source_kind": "notion",
+    "locator": "Chapter 15, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-16-Cell-Search-and-System-Information.md",
+    "source_kind": "notion",
+    "locator": "Chapter 16, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-16-Cell-Search-and-System-Information.md",
+    "source_kind": "notion",
+    "locator": "Chapter 16, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-16-Cell-Search-and-System-Information.md",
+    "source_kind": "notion",
+    "locator": "Chapter 16, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-16-Cell-Search-and-System-Information.md",
+    "source_kind": "notion",
+    "locator": "Chapter 16, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-16-Cell-Search-and-System-Information.md",
+    "source_kind": "notion",
+    "locator": "Chapter 16, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-16-Cell-Search-and-System-Information.md",
+    "source_kind": "notion",
+    "locator": "Chapter 16, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-17-Random-Access.md",
+    "source_kind": "notion",
+    "locator": "Chapter 17, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-17-Random-Access.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.321 V18.10.0, clause 5.1, PDF page 20",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.321/38321-ia0.zip"
+  },
+  {
+    "note": "Star-17-Random-Access.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "RACH overall-procedure overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_RACH.html"
+  },
+  {
+    "note": "Star-17-Random-Access.md",
+    "source_kind": "notion",
+    "locator": "Chapter 17, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-17-Random-Access.md",
+    "source_kind": "notion",
+    "locator": "Chapter 17, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-17-Random-Access.md",
+    "source_kind": "notion",
+    "locator": "Chapter 17, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-17-Random-Access.md",
+    "source_kind": "notion",
+    "locator": "Chapter 17, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_kind": "notion",
+    "locator": "Chapter 18, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_kind": "notion",
+    "locator": "Chapter 18, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_kind": "notion",
+    "locator": "Chapter 18, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_kind": "notion",
+    "locator": "Chapter 18, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_kind": "notion",
+    "locator": "Chapter 18, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_kind": "notion",
+    "locator": "Chapter 18, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_kind": "notion",
+    "locator": "Chapter 18, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 16",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 17",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 18",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 19",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 20",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 21",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 22",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 23",
+    "official_url": ""
+  },
+  {
+    "note": "Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_kind": "notion",
+    "locator": "Chapter 19, source image 24",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_kind": "notion",
+    "locator": "Chapter 20, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_kind": "notion",
+    "locator": "Chapter 21, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-22-Integrated-Access-Backhaul.md",
+    "source_kind": "notion",
+    "locator": "Chapter 22, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-23-Sidelink-Communication.md",
+    "source_kind": "notion",
+    "locator": "Chapter 23, source image 16",
+    "official_url": ""
+  },
+  {
+    "note": "Star-24-Positioning.md",
+    "source_kind": "notion",
+    "locator": "Chapter 24, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-24-Positioning.md",
+    "source_kind": "notion",
+    "locator": "Chapter 24, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-24-Positioning.md",
+    "source_kind": "notion",
+    "locator": "Chapter 24, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-24-Positioning.md",
+    "source_kind": "notion",
+    "locator": "Chapter 24, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-24-Positioning.md",
+    "source_kind": "notion",
+    "locator": "Chapter 24, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-24-Positioning.md",
+    "source_kind": "notion",
+    "locator": "Chapter 24, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 1",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 2",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 3",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 4",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 5",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 6",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 7",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 8",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 9",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 10",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 11",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 12",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 13",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 14",
+    "official_url": ""
+  },
+  {
+    "note": "Star-25-RF-Characteristics.md",
+    "source_kind": "notion",
+    "locator": "Chapter 25, source image 15",
+    "official_url": ""
+  },
+  {
+    "note": "Star-26-RF-Technologies-at-mm-Wave-Frequencies.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.101-2 V18.13.0, clause 6, PDF page 53",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.101-2/38101-2-id0.zip"
+  },
+  {
+    "note": "Star-26-RF-Technologies-at-mm-Wave-Frequencies.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "Millimetre-wave engineering overview",
+    "official_url": "https://www.sharetechnote.com/html/RF_Handbook_MillimeterWave.html"
+  },
+  {
+    "note": "Star-27-5G-Further-Evolution.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.300 V18.10.0, clause 18, PDF page 234",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.300/38300-ia0.zip"
+  },
+  {
+    "note": "Star-27-5G-Further-Evolution.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "Release 18 overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_Release18.html"
+  },
+  {
+    "note": "Star-28-TS-38.300-NR-and-NG-RAN-Overall-Description.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.300 V18.10.0, clause 4, PDF page 24",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.300/38300-ia0.zip"
+  },
+  {
+    "note": "Star-28-TS-38.300-NR-and-NG-RAN-Overall-Description.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "RAN architecture overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_RAN_Architecture.html"
+  },
+  {
+    "note": "Star-29-TS-38.211-Physical-Channels-and-Modulation.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.211 V18.9.0, clause 4.4.2, PDF page 14",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.211/38211-i90.zip"
+  },
+  {
+    "note": "Star-29-TS-38.211-Physical-Channels-and-Modulation.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "Resource-grid definition overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_ResourceGrid.html"
+  },
+  {
+    "note": "Star-30-TS-38.212-Multiplexing-and-Channel-Coding.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.212 V18.8.0, clause 5, PDF page 11",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.212/38212-i80.zip"
+  },
+  {
+    "note": "Star-30-TS-38.212-Multiplexing-and-Channel-Coding.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "Channel-coding overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_ChannelCoding.html"
+  },
+  {
+    "note": "Star-31-TS-38.213-Physical-Layer-Procedures-for-Control.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.213 V18.8.0, clause 4, PDF page 10",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.213/38213-i80.zip"
+  },
+  {
+    "note": "Star-31-TS-38.213-Physical-Layer-Procedures-for-Control.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "PDCCH overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_PDCCH.html"
+  },
+  {
+    "note": "Star-32-TS-38.214-Physical-Layer-Procedures-for-Data.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.214 V18.10.0, clause 5, PDF page 11",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.214/38214-ia0.zip"
+  },
+  {
+    "note": "Star-32-TS-38.214-Physical-Layer-Procedures-for-Data.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "PDSCH overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_PDSCH.html"
+  },
+  {
+    "note": "Star-33-TS-38.321-Medium-Access-Control.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.321 V18.10.0, clause 5, PDF page 19",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.321/38321-ia0.zip"
+  },
+  {
+    "note": "Star-33-TS-38.321-Medium-Access-Control.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "MAC overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_MAC.html"
+  },
+  {
+    "note": "Star-34-TS-38.322-Radio-Link-Control.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.322 V18.2.0, clause 5, PDF page 13",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.322/38322-i20.zip"
+  },
+  {
+    "note": "Star-34-TS-38.322-Radio-Link-Control.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "RLC overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_RLC.html"
+  },
+  {
+    "note": "Star-35-TS-38.323-Packet-Data-Convergence-Protocol.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.323 V18.5.0, clause 5, PDF page 15",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.323/38323-i50.zip"
+  },
+  {
+    "note": "Star-35-TS-38.323-Packet-Data-Convergence-Protocol.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "PDCP overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_PDCP.html"
+  },
+  {
+    "note": "Star-36-TS-38.331-Radio-Resource-Control.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.331 V18.10.0, clause 5, PDF page 43",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.331/38331-ia0.zip"
+  },
+  {
+    "note": "Star-36-TS-38.331-Radio-Resource-Control.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "RRC overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_RRC_Overview.html"
+  },
+  {
+    "note": "Star-37-TS-38.401-NG-RAN-Architecture-Description.md",
+    "source_kind": "3gpp_screenshot",
+    "locator": "TS 38.401 V18.7.0, clause 5, PDF page 13",
+    "official_url": "https://www.3gpp.org/ftp/Specs/archive/38_series/38.401/38401-i70.zip"
+  },
+  {
+    "note": "Star-37-TS-38.401-NG-RAN-Architecture-Description.md",
+    "source_kind": "sharetechnote_screenshot",
+    "locator": "RAN architecture overview",
+    "official_url": "https://www.sharetechnote.com/html/5G/5G_RAN_Architecture.html"
+  },
+  {
+    "note": "Uni-01-Cell-Search-Synchronization-and-MIB-Recovery.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.4.3.1; Table 7.4.3.1-1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-01-Cell-Search-Synchronization-and-MIB-Recovery.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.4.2.2.1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-02-Reference-Signals-Channel-Estimation-and-Equalization.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.4.1.1.1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-02-Reference-Signals-Channel-Estimation-and-Equalization.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.4.1.1.2; Table 7.4.1.1.2-1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-03-MIB-CORESET0-PDCCH-and-SIB1-Recovery.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "13; Table 13-11",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138213/18.08.00_60/ts_138213v180800p.pdf"
+  },
+  {
+    "note": "Uni-03-MIB-CORESET0-PDCCH-and-SIB1-Recovery.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "13; Table 13-4",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138213/18.08.00_60/ts_138213v180800p.pdf"
+  },
+  {
+    "note": "Uni-03-MIB-CORESET0-PDCCH-and-SIB1-Recovery.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "5.1.2.2.2",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/18.10.00_60/ts_138214v181000p.pdf"
+  },
+  {
+    "note": "Uni-04-PRACH-Timing-Advance-and-Uplink-Alignment.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "6.3.3.1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-04-PRACH-Timing-Advance-and-Uplink-Alignment.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "4.2",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138213/18.08.00_60/ts_138213v180800p.pdf"
+  },
+  {
+    "note": "Uni-05-Transport-Blocks-LDPC-and-HARQ.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.2.2",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/18.08.00_60/ts_138212v180800p.pdf"
+  },
+  {
+    "note": "Uni-05-Transport-Blocks-LDPC-and-HARQ.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "5.2.2",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/18.08.00_60/ts_138212v180800p.pdf"
+  },
+  {
+    "note": "Uni-05-Transport-Blocks-LDPC-and-HARQ.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "5.4.2.1; Table 5.4.2.1-2",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/18.08.00_60/ts_138212v180800p.pdf"
+  },
+  {
+    "note": "Uni-06-PUSCH-Power-Control-and-Coverage.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.1.1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138213/18.08.00_60/ts_138213v180800p.pdf"
+  },
+  {
+    "note": "Uni-06-PUSCH-Power-Control-and-Coverage.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "6.3.1.6",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-07-CSI-Feedback-and-Adaptive-MIMO.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.4.1.5.3; Table 7.4.1.5.3-3",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-07-CSI-Feedback-and-Adaptive-MIMO.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "7.4.1.5.3; Table 7.4.1.5.3-1, rows 1-3",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138211/18.09.00_60/ts_138211v180900p.pdf"
+  },
+  {
+    "note": "Uni-07-CSI-Feedback-and-Adaptive-MIMO.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "5.2.2.2.1; Table 5.2.2.2.1-1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/18.10.00_60/ts_138214v181000p.pdf"
+  },
+  {
+    "note": "Uni-08-Complete-Radio-Access-and-First-Bidirectional-Transfer.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "5.1.3",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138321/18.10.00_60/ts_138321v181000p.pdf"
+  },
+  {
+    "note": "Uni-08-Complete-Radio-Access-and-First-Bidirectional-Transfer.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "5.3.3.1; Figure 5.3.3.1-1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/18.10.00_60/ts_138331v181000p.pdf"
+  },
+  {
+    "note": "Uni-09-Connected-Multiuser-TDD-Cell.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "11.1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138213/18.08.00_60/ts_138213v180800p.pdf"
+  },
+  {
+    "note": "Uni-09-Connected-Multiuser-TDD-Cell.md",
+    "source_kind": "third_party_or_unclassified",
+    "locator": "5.4.2.1",
+    "official_url": "https://www.etsi.org/deliver/etsi_ts/138300_138399/138321/18.10.00_60/ts_138321v181000p.pdf"
+  }
+]

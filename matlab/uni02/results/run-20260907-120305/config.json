@@ -1,0 +1,23 @@
+{
+  "snrDb": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "dopplerHz": [
+    0,
+    300,
+    1000
+  ],
+  "additional": [
+    0,
+    2
+  ],
+  "trialsPerPoint": 30,
+  "seedBase": 420000,
+  "model": "Ideal OFDM diagonal two-path channel"
+}

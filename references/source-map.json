@@ -1,0 +1,296 @@
+[
+  {
+    "source": "Course Index.md",
+    "destination": "notes/Course Index.md",
+    "source_sha256": "b50c8843342fb1ba7a86b2271e66efa987b7c42687f75b39dc841cec0f757aea",
+    "delivered_sha256": "c163bc9319276a4a1f0839ebf55a23eb18bb0a2a4b012eccb8b9de028a0b2d1a"
+  },
+  {
+    "source": "Uni Engineering Index.md",
+    "destination": "notes/Uni Engineering Index.md",
+    "source_sha256": "41b597ff20183187170d26227acde01875e9d9a9e89db635f21b7c93e5b95159",
+    "delivered_sha256": "8c61a17703fc5d25e17ab6de5ba93b8e2d270e0b1921b1d141f0c3a4ed1aeb8e"
+  },
+  {
+    "source": "09 Abbreviation Database/5G Abbreviation Database.md",
+    "destination": "notes/09 Abbreviation Database/5G Abbreviation Database.md",
+    "source_sha256": "ccdb161879dd5d1bbee272d75517d5d3e99401797c59b11f8c3ee3042599c4d5",
+    "delivered_sha256": "13cd4a9ce5bcbf8c0df0f7035ed27733d4cd974790bcfb6146c571e6b91a1554"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-01-What-Is-5G.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-01-What-Is-5G.md",
+    "source_sha256": "77f6a5d0b70b51859c39a62d318c6fbf60b97bab10ed11025ede454ac89d6cc5",
+    "delivered_sha256": "cca25b051e37fc11c5ce2be7415cc1b546a2d2a2981385bee7f3fb78fb2f7f97"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-02-5G-Standardization.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-02-5G-Standardization.md",
+    "source_sha256": "2950bef3332b7d61b6e399ba999a630f8139993a6358ebe17187db61369605e0",
+    "delivered_sha256": "c1de3e4e0f75980308f08f4082e7f28aff95194792c0e600abf000967d1f71bc"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-03-Spectrum-for-5G.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-03-Spectrum-for-5G.md",
+    "source_sha256": "7077851b371e0f567d38e2971247d7a0b6f59945fa344ae2b7bc3bd50b507253",
+    "delivered_sha256": "a0c57ada6079c3a6b8bc0315eea0c96a916d6cce5b244e9e05beaef089c2a237"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-04-LTE-An-Overview.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-04-LTE-An-Overview.md",
+    "source_sha256": "ae97e9257193dc0a83fa0e54409a2a69a5ccd3ae8749bd788ab36d6c98a01390",
+    "delivered_sha256": "c3d42c3031c9285f9070c16a726a13979fd95d50ce414ec7e4e605b800ce98b2"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-05-NR-Overview.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-05-NR-Overview.md",
+    "source_sha256": "8e5b1755a7f756996ec2570b57468e1cd51360eb336e8424050975ce250251fb",
+    "delivered_sha256": "b1f57e91153dd434813a62ed45d4f2fca69445fcf88135d0ea04c464e5ceef14"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-06-Radio-Interface-Architecture.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-06-Radio-Interface-Architecture.md",
+    "source_sha256": "1bc98eb6c10de588f16bf63e869ed574442478a9b64292136884d69dffa70641",
+    "delivered_sha256": "76b3a49478feb00c3e2aba37cd31494af4918eb3a3280b3cac73a95bb55e74c6"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-07-Overall-Transmission-Structure.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-07-Overall-Transmission-Structure.md",
+    "source_sha256": "1beb96de9714602be76b927b38aeb23422b0c0d6c61a5366d23f03ea638caae2",
+    "delivered_sha256": "956e0c0d4026945c92fcb81c88c4ce7cb510e00b4bc80945e3cde5ca6b24004f"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-08-Channel-Sounding.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-08-Channel-Sounding.md",
+    "source_sha256": "d7bba7da2fcf3ca223686b4938987f3a48323510681ee945368b162f85d1e369",
+    "delivered_sha256": "62f58a83e98776d5b47400ea1fb8f7d5aaa2ced2af4fba121e709564e2b517a0"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-09-Transport-Channel-Processing.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-09-Transport-Channel-Processing.md",
+    "source_sha256": "a68de3057c92d85181cf5cd970264cc5a5bad10471e8da43f516c4e32f7f6d70",
+    "delivered_sha256": "367ac56cb7b63e4895e5d7564f6c05c85fca20f2051d5d25aa597494f37d6a14"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-10-Physical-Layer-Control-Signaling.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-10-Physical-Layer-Control-Signaling.md",
+    "source_sha256": "363e195744b4e2a1b0aa0321263a3cd37824c7637fce031a0557e3c3ba60bdbd",
+    "delivered_sha256": "980809662b1c687e21a94db71cc19aa88cf72713396d04ad75eb76c0ae7aaee7"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-11-Multi-Antenna-Transmission.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-11-Multi-Antenna-Transmission.md",
+    "source_sha256": "279eca8cd402fac39566c9aa6802df1b588ba1b4eec26dd2dafcb730deb6d509",
+    "delivered_sha256": "e94491765dc1ad6f11b9297af55d5da6a26a2637d39b0016fe4b93225af30594"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-12-Beam-Management.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-12-Beam-Management.md",
+    "source_sha256": "97cb2de9d492279f9d049b8e47ffcfda979760703b6d5424aa3393bd7103716c",
+    "delivered_sha256": "44995eddd1d8cad8d05a734b831e4ebbc5e94ece91701a10e633043b42493ab7"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-13-Retransmission-Protocols.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-13-Retransmission-Protocols.md",
+    "source_sha256": "bf9096371acae90309c5571b9e60a031832371062f9f6b35d1659460d7f2b2f4",
+    "delivered_sha256": "32b6166368b32a1f8784135218edb9eadcd3ab88559c0379c08d7584e9cc63cf"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-14-Scheduling.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-14-Scheduling.md",
+    "source_sha256": "89bb2ecb908dcde494d12ea00052af47b821552382ed3691e9039240f96d92ec",
+    "delivered_sha256": "a21a4620fc3629d6268b12a1725751ac86e2f3cb77008a3b8671b3f3af5e8e0c"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-15-Uplink-Power-and-Timing-Control.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-15-Uplink-Power-and-Timing-Control.md",
+    "source_sha256": "321cd53371855972bc8b014b2a470b0307e24651ac8fe9af334d58bed8d7e4ee",
+    "delivered_sha256": "09a331149c68d03731269a058d53c40685c781a553a1bd1ba0fb6cd75c993aed"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-16-Cell-Search-and-System-Information.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-16-Cell-Search-and-System-Information.md",
+    "source_sha256": "14851f6375eff65192b7c0f534ff1feb569b8232cbf3e3c2eb3d2665dc5d3aed",
+    "delivered_sha256": "d567c14b77bbcbd1b25e3da2f83318afd5f425427244df2895a43371435de605"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-17-Random-Access.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-17-Random-Access.md",
+    "source_sha256": "09f9ba1cccf3980e21d5df875df58e7a852630acd4d6c679d18705826ebc48bc",
+    "delivered_sha256": "eab73572255805e1c6bd6871ddaff7d5ddf073dee458b635c5d818f27f5f6860"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-18-LTE-NR-Interworking-and-Coexistence.md",
+    "source_sha256": "5a95da0f395952562b34c614adc6ffd04b1b33d78862d98cd4ae88c605ffce30",
+    "delivered_sha256": "44e19a27b84e4e3285a8e7775cdd9139801506a0dfd3efd07d03051a9e307fdd"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-19-NR-in-Unlicensed-Spectrum.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-19-NR-in-Unlicensed-Spectrum.md",
+    "source_sha256": "2714f83991ad206e0f85ecf5a9f83f1f7d0c0ee69090c29fec43538f8a11c73f",
+    "delivered_sha256": "e6bee16c9a1b75959d22eb782d649e0f540b3165fe841224281155762671156d"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-20-Industrial-IoT-and-URLLC-Enhancements.md",
+    "source_sha256": "f1d90540598e531c89bc48a7dcd9054068492809505959211c7ff2f3bf2f4d0b",
+    "delivered_sha256": "22febd8a4752f6362434f24aa031b9c2afa6572a1d79c7f8f58e897ddfb377eb"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-21-Interference-Handling-in-TDD-Networks.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-21-Interference-Handling-in-TDD-Networks.md",
+    "source_sha256": "a0f83b23d658af3a686a7a76c7b6c1cacb4a9801acb1efde3b127fbdd541d125",
+    "delivered_sha256": "b159599337c1ef4e27782ca1b600363d61d5723c384381854c9bd7acdba25357"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-22-Integrated-Access-Backhaul.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-22-Integrated-Access-Backhaul.md",
+    "source_sha256": "d14162c9439e927cecf7e06576ac90297848880b250851b543a374ce5fe7a63e",
+    "delivered_sha256": "edeacc4b585f0a90bcbe075f6bd2d5d0a764393c083efdbc3442a231f22be1ba"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-23-Sidelink-Communication.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-23-Sidelink-Communication.md",
+    "source_sha256": "9a2029578834a7a50146a85cb16f8ce13b6f95ebbcd5733dc839d81de8244d32",
+    "delivered_sha256": "a4295b08a2b5543ad19358e5a6ef13eaf24023988c26484212038138611ee7fb"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-24-Positioning.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-24-Positioning.md",
+    "source_sha256": "f163bd92a5845d4f9dd2e6d9bfd4cb82d0737e269a5641681fad47dcd42c563a",
+    "delivered_sha256": "09e5de22f8c40ded462261687f5c8d4f90d2d3c09656d38d879e7a2770bf7de3"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-25-RF-Characteristics.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-25-RF-Characteristics.md",
+    "source_sha256": "0132f1ea40b924ad15f67b9f7de6419526bd6b449304bfce41fe4126b6cc366e",
+    "delivered_sha256": "bf75479afed0330169fdc7139aa48d54256af58ba8f93c80518ad347fd1cc05a"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-26-RF-Technologies-at-mm-Wave-Frequencies.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-26-RF-Technologies-at-mm-Wave-Frequencies.md",
+    "source_sha256": "4729d821cc8710f0740a8e2c5c2b491d6b07ad7bf84a13899194d40d8bbc1db3",
+    "delivered_sha256": "9933704c3924d07ea118b196ae6b618fe1d80eea60a5f79ba3acce157ef017e2"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-27-5G-Further-Evolution.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-27-5G-Further-Evolution.md",
+    "source_sha256": "af1ca9b24831c8035694758f9e438fc02cf261b900d8d3045e5daf2a77437f49",
+    "delivered_sha256": "fadf75fc9fc0436ca421b8f0f6a9773ba28f4a0662f44d91dfa7650391cee97a"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-28-TS-38.300-NR-and-NG-RAN-Overall-Description.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-28-TS-38.300-NR-and-NG-RAN-Overall-Description.md",
+    "source_sha256": "d82580acfead098a7c823a2781673a13215fd1b20f0cd022066070258938d8eb",
+    "delivered_sha256": "f5906fb0f693482a825711f51b6b9faaaf79437cef771b555001768bcffea878"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-29-TS-38.211-Physical-Channels-and-Modulation.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-29-TS-38.211-Physical-Channels-and-Modulation.md",
+    "source_sha256": "ed88cf48310d9e7d7a8722cc53cb80696269a61eb7d0d2b33e7f34333ae6b247",
+    "delivered_sha256": "5e98592b575eba35e854c7b97d358ef3f69c831eca4401fa39c8c244fff60093"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-30-TS-38.212-Multiplexing-and-Channel-Coding.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-30-TS-38.212-Multiplexing-and-Channel-Coding.md",
+    "source_sha256": "3ea396ea22ab54a29fb6b4048f9b95e564d4c2ee88a350e6d2d448918cc0bda4",
+    "delivered_sha256": "d9d48a32ab404ece31fb4e8fe507005ea4af6737f5f0509fed549f86fc4eea40"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-31-TS-38.213-Physical-Layer-Procedures-for-Control.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-31-TS-38.213-Physical-Layer-Procedures-for-Control.md",
+    "source_sha256": "db6527968862a8b57ae14e2d8e3a7e37275d09225354bc212de83bf91bcb0d5d",
+    "delivered_sha256": "f51c0b7659a83cbb2e97d1a26f9bf4fc497e7cf59463c5cf7e1fd38221627399"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-32-TS-38.214-Physical-Layer-Procedures-for-Data.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-32-TS-38.214-Physical-Layer-Procedures-for-Data.md",
+    "source_sha256": "6f6f2993f37d24f1cc5b73ed4f6236762f1089c2b995c51021f7d3d12d9bbc40",
+    "delivered_sha256": "18588e0b686a62d7df8e444fcabd5cee1aba269357b687ae61e5073c0e78471b"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-33-TS-38.321-Medium-Access-Control.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-33-TS-38.321-Medium-Access-Control.md",
+    "source_sha256": "8e805e4b989407cfdeeb1a9d5b339913031e5b59091ea357ed112a477e1a65d3",
+    "delivered_sha256": "337829dda245a60d96fbf76845bfd24d81040bace077f01c3edcf9add55b7f6f"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-34-TS-38.322-Radio-Link-Control.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-34-TS-38.322-Radio-Link-Control.md",
+    "source_sha256": "dd6878fedb3ed7c389343e273de9622aa613bee3d86b4d1ba88422d9b063ac1e",
+    "delivered_sha256": "125d985fbf3a536a5307cf5a80eb2a7abc9410b58ed378aa44c759a72195126f"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-35-TS-38.323-Packet-Data-Convergence-Protocol.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-35-TS-38.323-Packet-Data-Convergence-Protocol.md",
+    "source_sha256": "e3b71b08716ab334522542b6e579c00f6c84fb7191ff0568076c8ac17397e45c",
+    "delivered_sha256": "4380d404073e86c986a688c7bc680021947786b5a4b5c695f456f77c556d7847"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-36-TS-38.331-Radio-Resource-Control.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-36-TS-38.331-Radio-Resource-Control.md",
+    "source_sha256": "bd995a605644c33dfff41aa52dcd566c47a8a1a35c9db7689710d904245d1172",
+    "delivered_sha256": "ef6eabe92e452b72050a88fc3ea97283dace623d160a46888c2965c42a3bf5d7"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Star-37-TS-38.401-NG-RAN-Architecture-Description.md",
+    "destination": "notes/05 Knowledge Syntheses/Star-37-TS-38.401-NG-RAN-Architecture-Description.md",
+    "source_sha256": "9a4c3b6d5ccf6e850c59dd90a321f983d3f4e74917e329eff5aa1f3e68ca5d92",
+    "delivered_sha256": "d37b312f28c399b7768d179a5058c4464acca1cd59afb48bc07ea4cc229a163b"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-01-Cell-Search-Synchronization-and-MIB-Recovery.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-01-Cell-Search-Synchronization-and-MIB-Recovery.md",
+    "source_sha256": "c14a30397a5cf1d854109291d5d35be53d395705183df8288dea4f8f05404d6a",
+    "delivered_sha256": "ae37b2cd26fa11dd015e11ea8f14859488cbbd67004e0d4361cb4bdab572186a"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-02-Reference-Signals-Channel-Estimation-and-Equalization.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-02-Reference-Signals-Channel-Estimation-and-Equalization.md",
+    "source_sha256": "9a739d6f82aa8230346a32e224bf28a98d82ea2bdb203a25eb1fbed794580277",
+    "delivered_sha256": "69967f5fe068356d1df92af82dc4b8642bf66a023854c9598c091ff5791e818b"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-03-MIB-CORESET0-PDCCH-and-SIB1-Recovery.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-03-MIB-CORESET0-PDCCH-and-SIB1-Recovery.md",
+    "source_sha256": "7cff386f0079c5505f8217443c4e77ce5766d855f9584305e17aa12b68aa68d2",
+    "delivered_sha256": "2a10f2b3c270759c51f128f896a05b5714b65c909b2502e88a0b5643747fb0ee"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-04-PRACH-Timing-Advance-and-Uplink-Alignment.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-04-PRACH-Timing-Advance-and-Uplink-Alignment.md",
+    "source_sha256": "06830f932261483d30a3df16c760e32918d4aba12d4ff60db44ba7a4d2406360",
+    "delivered_sha256": "0d4faae73b288190344fdce1eb8ae7e8c224f88f1208eccd3df2defa126a9f90"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-05-Transport-Blocks-LDPC-and-HARQ.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-05-Transport-Blocks-LDPC-and-HARQ.md",
+    "source_sha256": "4e9f2fb5718c75ebefd4f16024ec846c8031d3a62aefe983c4532df8378576fa",
+    "delivered_sha256": "94c0009593081399155d35b203efb5619e0ccbec5c927e14b0990832b80ec078"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-06-PUSCH-Power-Control-and-Coverage.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-06-PUSCH-Power-Control-and-Coverage.md",
+    "source_sha256": "28e55b727ee03e0762eeedfc547342c499c80256f5643a48d552e93b6c523049",
+    "delivered_sha256": "6e1f1cce46e873b5c8a87cecdd7d65f924420096350c747fa13989f7fa122955"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-07-CSI-Feedback-and-Adaptive-MIMO.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-07-CSI-Feedback-and-Adaptive-MIMO.md",
+    "source_sha256": "d8556544aa9810e254473935c356d2bd1546d8c9bc788afb644fa2d398ae7398",
+    "delivered_sha256": "61af62b9f2c043660d0d2ab8d752332e8b02eccded2f3d395acecbab056cdbfb"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-08-Complete-Radio-Access-and-First-Bidirectional-Transfer.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-08-Complete-Radio-Access-and-First-Bidirectional-Transfer.md",
+    "source_sha256": "987bf3d0b199316b150cc97db81632f0b35ec19b7d1380c50a95bd824b2bb03f",
+    "delivered_sha256": "644ea673443808035a10439a4dc17217785d8f27546c8642ca86fa12b91bc4f1"
+  },
+  {
+    "source": "05 Knowledge Syntheses/Uni-09-Connected-Multiuser-TDD-Cell.md",
+    "destination": "notes/05 Knowledge Syntheses/Uni-09-Connected-Multiuser-TDD-Cell.md",
+    "source_sha256": "0bcfa5048dd4a82394e020752edeb42c2a34befcc8ed9bfd02f6fbd2352d34cf",
+    "delivered_sha256": "29e61ee4d99082c3b760ba49fcc9c4e3ac6182c63fa3bb9650c5a8b7f16fa9dc"
+  }
+]
