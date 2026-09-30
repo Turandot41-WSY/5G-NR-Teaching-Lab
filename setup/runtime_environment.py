@@ -1,5 +1,4 @@
 """Resolve the course environment for both launchers, without shell activation."""
-import json
 import os
 import shutil
 import subprocess
@@ -14,15 +13,8 @@ def prepare_references(root, python):
 
 
 def python_executable(root, windows=None):
-    root = Path(root)
-    windows = os.name == 'nt' if windows is None else windows
-    config = root / 'local-config.json'
-    data = json.loads(config.read_text()) if config.exists() else {}
-    folder = data.get('environment', '.venv')
-    if folder not in ('.conda', '.venv'):
-        raise ValueError('Unknown course environment in local-config.json')
-    suffix = ('python.exe' if folder == '.conda' else 'Scripts/python.exe') if windows else 'bin/python'
-    return root / folder / suffix
+    from environment_selection import select_python
+    return select_python(root, windows=windows)
 
 
 def prepare_environment(python):
@@ -31,6 +23,9 @@ def prepare_environment(python):
     bins = [prefix, prefix/'Scripts', prefix/'Library/bin', prefix/'Library/usr/bin'] if os.name == 'nt' else [prefix/'bin']
     os.environ['PATH'] = os.pathsep.join([*(str(p) for p in bins), os.environ.get('PATH', '')])
     os.environ['COURSE_PYTHON'] = str(python)
+    os.environ['PYTHONNOUSERSITE'] = '1'
+    os.environ.pop('PYTHONPATH', None)
+    os.environ.pop('PYTHONHOME', None)
     if (prefix/'conda-meta').is_dir():
         os.environ['CONDA_PREFIX'] = str(prefix)
         # Conda packages install tools separately from the Quarto distribution.

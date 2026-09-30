@@ -2,7 +2,7 @@
 
 `notebooks/Uni-01.ipynb` through `Uni-09.ipynb` contain 62 MATLAB execution cells. They are delivered without execution counts or outputs. The saved teacher plots remain in the notes; running a cell produces a new result on your computer.
 
-The editable source is `cells/* Execution Cells.md`. After `conda activate ./.conda` from the repository root, regenerate notebooks with `python jupyter/export_notebooks.py`. The website reads these same cell sources and inserts them at the corresponding note headings.
+The editable source is `cells/* Execution Cells.md`. Activate your selected course environment (`conda activate fiveg-notebooks` for the shared installation), then regenerate notebooks from the repository root with `python jupyter/export_notebooks.py`. If you reused an older environment, activate its prefix instead. The website reads these same cell sources and inserts them at the corresponding note headings.
 
 The easiest entry is `python start.py` from the repository root. It opens Course Index; select a Uni note to reach its MATLAB cells. Use `python start.py --lab uni01` to open a particular experiment directly. For JupyterLab, activate the course Conda environment, use `python -m jupyter lab` and open a notebook in `notebooks/`. Both use MathWorks' `jupyter_matlab_kernel`, a licensed local MATLAB and its toolboxes. Complete setup instructions are in the [root README](../README.md#install-with-miniconda).
 

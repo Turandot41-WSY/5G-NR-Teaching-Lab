@@ -20,15 +20,21 @@ def main():
     p.add_argument('--matlab', help='MATLAB executable, if it is not on PATH')
     p.add_argument('--no-browser', action='store_true')
     p.add_argument('--rebuild', action='store_true', help='Rebuild reading pages before starting')
+    p.add_argument('--check-environment', action='store_true', help='Check installed dependencies and rendering, then exit without downloads or a server')
     args = p.parse_args()
-    python = python_executable(ROOT)
-    if not python.is_file():
-        p.exit(1, 'Run python setup/install.py first. See setup/README.md.\n')
+    try:
+        python = python_executable(ROOT)
+    except (RuntimeError, OSError, ValueError) as error:
+        p.exit(1, str(error)+'\n')
+    print(f'Using existing Python: {python}', flush=True)
+    prepare_environment(python)
+    if args.check_environment:
+        subprocess.run([str(python), str(ROOT/'setup/check_environment.py')], cwd=ROOT, check=True)
+        return
     config = ROOT / 'local-config.json'
     cfg = json.loads(config.read_text()) if config.exists() else {}
     if cfg.get('example_directory'):
         os.environ['NR_CELL_SEARCH_EXAMPLE'] = cfg['example_directory']
-    prepare_environment(python)
     try:
         prepare_references(ROOT, python)
     except (subprocess.CalledProcessError, OSError) as error:

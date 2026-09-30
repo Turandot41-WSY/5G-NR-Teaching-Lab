@@ -9,8 +9,14 @@ history is kept separately and must not be merged into this repository.
 ```sh
 git clone https://github.com/Turandot41-WSY/5G-NR-Teaching-Lab.git
 cd 5G-NR-Teaching-Lab
-python setup/install.py
+python start.py --check-environment
 ```
+
+If the check passes, the clone can reuse the printed interpreter. Run
+`python setup/install.py --python PATH` to save a specific existing interpreter.
+Only a first installation needs `python setup/install.py --create`; it creates
+one shared environment for reuse by later clones. See the root README for
+disk space and dependency update instructions.
 
 Open this copy's `notes/` folder in Obsidian. Those Markdown files are the
 website's source. Keep teaching cells in `jupyter/cells/` and MATLAB functions
@@ -42,10 +48,12 @@ Before editing, check `git status` and use `git pull --ff-only` when your
 working copy is clean. Keep local work safe if Git reports a conflict.
 For a change, create a branch such as `git switch -c update-uni01`.
 
-After editing, activate the course environment and run:
+After editing, activate the shared course environment and run the commands
+below. If you reused a different environment, activate that environment's
+prefix instead of `fiveg-notebooks`.
 
 ```sh
-conda activate ./.conda
+conda activate fiveg-notebooks
 python jupyter/export_notebooks.py
 python -m unittest discover -s tests
 python publish_site.py build --validate

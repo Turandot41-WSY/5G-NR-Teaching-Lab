@@ -7,6 +7,7 @@ import tempfile
 import unittest
 import os
 import zipfile
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -43,9 +44,10 @@ class InstallDocumentTests(unittest.TestCase):
             for p in (legacy, modern):
                 p.parent.mkdir(parents=True)
                 p.touch()
-            self.assertEqual(module.python_executable(root, windows=False), legacy)
-            (root / 'local-config.json').write_text(json.dumps({'environment': '.conda'}))
-            self.assertEqual(module.python_executable(root, windows=False), modern)
+            with patch('environment_selection.probe_environment', return_value=[]):
+                self.assertEqual(module.python_executable(root, windows=False), legacy)
+                (root / 'local-config.json').write_text(json.dumps({'environment': '.conda'}))
+                self.assertEqual(module.python_executable(root, windows=False), modern)
 
     def test_pdf_download_rejects_wrong_bytes(self):
         module = self.load('references/3gpp/specifications.py')

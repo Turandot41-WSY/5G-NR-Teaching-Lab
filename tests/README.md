@@ -11,10 +11,10 @@ Its tests cover ignored files, forced additions, staged and historical secrets,
 notebook outputs, local paths and symlinks. See [maintenance](../MAINTAINING.md)
 for the review steps that remain manual.
 
-Activate the course environment from the repository root, then run:
+Activate the course environment from the repository root, then run the commands below. If you reused another environment, activate its prefix instead of the shared name `fiveg-notebooks`.
 
 ```sh
-conda activate ./.conda
+conda activate fiveg-notebooks
 python -m unittest discover -s tests
 python publish_site.py build --validate
 ```

@@ -6,7 +6,7 @@ rebuild it whenever a note, figure, manifest or theme file changes.
     python3 publish_site.py build      build once (add --validate to run the full validator)
     python3 publish_site.py serve      build, serve and watch (options: --port, --no-watch, --no-browser, --validate)
 
-Requirements: the course Conda environment installed by python setup/install.py.
+Requirements: a compatible environment selected by python setup/install.py.
 Every page is generated from the Markdown notes in this folder, so editing a note
 in Obsidian and saving it is enough: the watcher rebuilds the site and you reload the browser.
 """
@@ -53,6 +53,7 @@ WATCHED = [
     VALIDATE,
     ROOT / "publish_site.py",
     ROOT / "setup/runtime_environment.py",
+    ROOT / "setup/environment_selection.py",
 ]
 WATCH_SUFFIXES = {".md", ".yml", ".yaml", ".json", ".css", ".py", ".png", ".pdf", ".zip"}
 
@@ -65,8 +66,7 @@ def ensure_dependencies() -> None:
     try:
         import yaml  # noqa: F401
     except ImportError:
-        say("installing PyYAML ...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet", "pyyaml"])
+        sys.exit('PyYAML is missing. Select a compatible environment with python setup/install.py. No packages were installed.')
     if shutil.which("quarto") is None:
         sys.exit("Quarto was not found on the PATH. Install it from https://quarto.org and run this script again.")
 
@@ -214,11 +214,6 @@ def watch(validate: bool, initial_state: dict[str, tuple[int, int, int]] | None 
 
 
 def main() -> int:
-    # Use the installed course environment from a fresh terminal.
-    python = python_executable(ROOT)
-    prepare_environment(python)
-    if python.is_file() and Path(sys.executable).resolve() != python.resolve():
-        os.execv(str(python), [str(python), str(Path(__file__).resolve()), *sys.argv[1:]])
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command")
     b = sub.add_parser("build", help="build the site once")
@@ -232,6 +227,15 @@ def main() -> int:
     if not argv or argv[0].startswith('--') and argv[0] not in ('--help', '-h'):
         argv = ['serve', *argv]
     args = parser.parse_args(argv)
+    try:
+        python = python_executable(ROOT)
+    except (RuntimeError, OSError, ValueError) as error:
+        say(str(error))
+        return 1
+    prepare_environment(python)
+    # Resolving a venv symlink would compare equal to its base interpreter.
+    if Path(sys.executable).absolute() != python.absolute():
+        os.execv(str(python), [str(python), str(Path(__file__).resolve()), *sys.argv[1:]])
     command = args.command or "serve"
     if command == "build":
         ensure_dependencies()

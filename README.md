@@ -12,7 +12,7 @@ The course has three layers:
 
 ## Install with Miniconda
 
-Install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install) for your operating system. You also need a licensed **MATLAB R2026a** with **5G Toolbox** and **Communications Toolbox**; Uni-09 additionally needs **Wireless Network Toolbox**. Install MATLAB and the toolboxes through MathWorks or your university licence. The course installer handles Python, Jupyter and website dependencies.
+You need a licensed **MATLAB R2026a** with **5G Toolbox** and **Communications Toolbox**; Uni-09 additionally needs **Wireless Network Toolbox**. Install MATLAB and the toolboxes through MathWorks or your university licence. The launcher first checks for a compatible Python, Jupyter and Quarto environment already on your computer. [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install) is needed when you choose to create a new course environment.
 
 Download and extract this repository, or clone it with Git:
 
@@ -21,17 +21,37 @@ git clone https://github.com/Turandot41-WSY/5G-NR-Teaching-Lab.git
 cd 5G-NR-Teaching-Lab
 ```
 
-Use a terminal where `conda --version` works; on Windows, open **Anaconda Prompt (Miniconda)**. Run one setup command:
+First check whether you can reuse an installed environment. This command checks dependencies, MATLAB kernel registration and a small Quarto render. It does not install packages, download PDFs or start a server:
 
 ```sh
-python setup/install.py
+python start.py --check-environment
 ```
 
-Setup creates an isolated **`.conda/`** environment inside this repository. It installs Python 3.12, Quarto 1.8.27, JupyterLab, the MathWorks MATLAB kernel and the packages in [setup/requirements.txt](setup/requirements.txt). It generates nine notebooks, downloads ten fixed versions of the core specifications into **`references/3gpp/`**, checks each PDF's SHA-256, and packs them into **`3GPP-Rel-18-Core-Specifications.zip`** in the same folder. Package dependencies and kernel registration are checked before setup reports success. Internet access is required on the first run. Your Conda base environment is preserved.
+If the check passes, run `python start.py`. The launcher checks a saved interpreter, older `.venv`/`.conda` installations in this checkout, your current Python, the shared course environment and older course environments registered with Conda. Each candidate must have the pinned package versions, working imports, Quarto and the MATLAB kernel. Having Jupyter alone is not sufficient.
+
+To save an existing environment explicitly, use its Python executable:
+
+```sh
+python setup/install.py --python "/path/to/existing/environment/bin/python"
+```
+
+For a Conda environment on Windows, use its `python.exe`. With no options, `python setup/install.py` checks and selects an existing environment, prepares the notebooks and references, and saves the selection. It never installs packages. An invalid saved path stops with a diagnostic; select a replacement with `--python`.
+
+If no compatible environment is available, use a terminal where `conda --version` works; on Windows, open **Anaconda Prompt (Miniconda)**. Explicitly request the first installation:
+
+```sh
+python setup/install.py --create
+```
+
+This creates **one shared Conda environment named `fiveg-notebooks`**, outside the repository, for reuse by later clones. It installs Python 3.12, Quarto 1.8.27, JupyterLab, the MathWorks MATLAB kernel and [setup/requirements.txt](setup/requirements.txt). Setup generates nine notebooks, downloads ten fixed specifications into **`references/3gpp/`**, verifies their SHA-256 and creates **`3GPP-Rel-18-Core-Specifications.zip`** there. It checks dependencies and rendering before saving the interpreter in ignored `local-config.json`. Your Conda base environment is preserved. `--create` refuses to overwrite an existing shared environment; `--update` explicitly updates that environment and affects all clones using it. Stop their servers before updating.
+
+### Disk space
+
+The initial repository contains about **120 MiB** of teaching files, primarily figures and retained MATLAB results. A clone also stores about **107 MiB** of compressed Git data. Python, Jupyter, Quarto and their dependencies are separate: the first installation can require **1–2 GB or more**, plus Conda package caches. Reusing an installed environment avoids another copy of those packages. Local protocol PDFs, the protocol ZIP and generated reading pages also use disk space in each clone. `git clone`, `git pull` and ordinary startup never install packages. The launcher prints the interpreter it uses.
 
 The direct dependencies are pinned in [environment.yml](environment.yml) and the requirements file. Conda resolves additional platform dependencies; binary packages may therefore differ between operating systems. This setup and MATLAB execution have been tested on macOS. Windows and Linux execution still need testing on those platforms.
 
-If the official PDF service is unavailable, setup can finish with `python setup/install.py --skip-references`. The next `python start.py` retries the reference download before opening the course. An existing PDF with a different checksum causes an error; inspect the named file before retrying.
+If the official PDF service is unavailable, add `--skip-references` to the chosen setup command. The next `python start.py` retries the reference download before opening the course. An existing PDF with a different checksum causes an error; inspect the named file before retrying.
 
 ## Start the notebook
 
@@ -57,14 +77,20 @@ Save its local folder and, if needed, your MATLAB executable path with:
 python setup/install.py --example-directory "/path/to/NRCellSearchMIBAndSIB1RecoveryExample" --matlab "/path/to/matlab"
 ```
 
-Replace the example paths with your own. On Windows, the MATLAB executable is usually `C:\Program Files\MATLAB\R2026a\bin\matlab.exe`; on macOS the launcher also searches `/Applications`. On Linux, put MATLAB on PATH or provide `--matlab`. These settings are saved in ignored `local-config.json`. Repeating setup updates the same course environment and preserves existing settings. Vendor example files come from your MATLAB installation.
+Replace the example paths with your own. On Windows, the MATLAB executable is usually `C:\Program Files\MATLAB\R2026a\bin\matlab.exe`; on macOS the launcher also searches `/Applications`. On Linux, put MATLAB on PATH or provide `--matlab`. These settings are saved in ignored `local-config.json`. Repeating setup without `--create` or `--update` reuses dependencies and preserves existing settings. Vendor example files come from your MATLAB installation.
 
 ### Check the installation
 
-Activate the course environment to use its commands directly:
+You can check the selected environment without activating it:
 
 ```sh
-conda activate ./.conda
+python start.py --check-environment
+```
+
+To run commands directly in the shared environment created by `--create`, activate it as below. If you selected another existing environment, activate that environment's prefix instead of `fiveg-notebooks`.
+
+```sh
+conda activate fiveg-notebooks
 quarto --version
 python -m jupyter kernelspec list
 python publish_site.py build --validate
@@ -94,7 +120,7 @@ git pull --ff-only
 python start.py
 ```
 
-Startup moves verified PDFs from the previous `documents/3gpp/` location into `references/3gpp/`, prepares the protocol ZIP and rebuilds an outdated website. Files you added to the old folder are preserved. Refresh the browser after startup. If an update changes the environment files, run `python setup/install.py` before starting.
+Startup moves verified PDFs from the previous `documents/3gpp/` location into `references/3gpp/`, prepares the protocol ZIP and rebuilds an outdated website. Files you added to the old folder are preserved. Refresh the browser after startup. Dependency mismatches stop with details. Use `python setup/install.py --update` only when you intend to update the shared course environment. If you selected your own environment, manage its packages yourself or select another compatible interpreter.
 
 ## How to use the site
 
@@ -137,10 +163,10 @@ For reading with automatic rebuilds, use `python3 publish_site.py --no-browser` 
 
 Starting the reading server again reuses the server for this same project, with no second build. If it is still preparing, wait for its terminal to report ready. If another program or an older server occupies the port, startup stops before building and tells you how to close it or choose another port. Stop a server in its original terminal with `Ctrl+C`.
 
-For the usual JupyterLab interface:
+For the usual JupyterLab interface, activate your selected environment (the shared name is shown below):
 
 ```sh
-conda activate ./.conda
+conda activate fiveg-notebooks
 python -m jupyter lab
 ```
 
